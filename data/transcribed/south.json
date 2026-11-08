@@ -1,0 +1,900 @@
+{
+ "generated": "2026-11-08",
+ "okinawa": {
+  "year_label_ja": "令和7/8年期（令和7年産）",
+  "year_label_en": "2025/26 crop season (2025 crop)",
+  "total": {
+   "area_ha": 13638,
+   "cane_t": 765771,
+   "sugar_t": 91713,
+   "sugar_bunmitsu_t": 82993,
+   "sugar_ganmitsu_t": 8720,
+   "yield_kg_per_10a": 5615
+  },
+  "previous_season_total_R6_7": {
+   "area_ha": 13484,
+   "cane_t": 845112,
+   "sugar_t": 97054
+  },
+  "islands": [
+   {
+    "name_ja": "沖縄島（本島）",
+    "name_en": "Okinawa Island (main island)",
+    "area_ha": 2115,
+    "cane_t": 114388,
+    "sugar_t": 14475,
+    "sugar_type": "分みつ糖",
+    "lat": 26.22,
+    "lon": 127.7022,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(3) 工場別<分蜜糖> ゆがふ製糖KK 沖縄本島計 (printed p.15, PDF p.16)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): ゆがふ製糖KK (北地区+南部地区) 沖縄本島計"
+   },
+   {
+    "name_ja": "伊江島",
+    "name_en": "Ie-jima",
+    "area_ha": 89,
+    "cane_t": 7372,
+    "sugar_t": 954,
+    "sugar_type": "含みつ糖",
+    "lat": 26.7257,
+    "lon": 127.7934,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) 伊江村 (printed p.12, PDF p.13)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): JA伊江支店製糖工場"
+   },
+   {
+    "name_ja": "伊平屋島",
+    "name_en": "Iheya-jima",
+    "area_ha": 141,
+    "cane_t": 5408,
+    "sugar_t": 623,
+    "sugar_type": "含みつ糖",
+    "lat": 27.0526,
+    "lon": 127.9751,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) 伊平屋村 (printed p.12, PDF p.13)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): JA伊平屋支店製糖工場"
+   },
+   {
+    "name_ja": "伊是名島",
+    "name_en": "Izena-jima",
+    "area_ha": 377,
+    "cane_t": 24187,
+    "sugar_t": 2903,
+    "sugar_type": "分みつ糖",
+    "lat": 26.9203,
+    "lon": 127.9324,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) 伊是名村 (printed p.12, PDF p.13)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): JA伊是名支店製糖工場"
+   },
+   {
+    "name_ja": "粟国島",
+    "name_en": "Aguni-jima",
+    "area_ha": 43,
+    "cane_t": 2347,
+    "sugar_t": 301,
+    "sugar_type": "含みつ糖",
+    "lat": 26.5902,
+    "lon": 127.2315,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) 粟国村 (printed p.13, PDF p.14)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): JA粟国支店製糖工場"
+   },
+   {
+    "name_ja": "久米島",
+    "name_en": "Kume-jima",
+    "area_ha": 965,
+    "cane_t": 58707,
+    "sugar_t": 7186,
+    "sugar_type": "分みつ糖",
+    "lat": 26.3413,
+    "lon": 126.7875,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) 久米島町 (printed p.13, PDF p.14)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): 久米島製糖KK"
+   },
+   {
+    "name_ja": "南大東島",
+    "name_en": "Minami-Daito-jima",
+    "area_ha": 1337,
+    "cane_t": 88930,
+    "sugar_t": 9936,
+    "sugar_type": "分みつ糖",
+    "lat": 25.8451,
+    "lon": 131.2424,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) 南大東村 (printed p.13, PDF p.14)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): 大東糖業KK"
+   },
+   {
+    "name_ja": "北大東島",
+    "name_en": "Kita-Daito-jima",
+    "area_ha": 406,
+    "cane_t": 25650,
+    "sugar_t": 2882,
+    "sugar_type": "分みつ糖",
+    "lat": 25.9444,
+    "lon": 131.3104,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) 北大東村 (printed p.13, PDF p.14)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): 北大東製糖KK"
+   },
+   {
+    "name_ja": "宮古島",
+    "name_en": "Miyako-jima",
+    "area_ha": 4745,
+    "cane_t": 266627,
+    "sugar_t": 33638,
+    "sugar_type": "分みつ糖",
+    "lat": 24.7905,
+    "lon": 125.3034,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) 宮古本島 (平良+城辺+下地+上野) (printed p.14, PDF p.15)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): 宮古本島計 = 沖縄製糖KK 17,432 + 宮古製糖KK城辺工場 16,206; factories processed 280,773 t incl. some 伊良部 cane, so sugar is factory-based not grower-island-based"
+   },
+   {
+    "name_ja": "伊良部島",
+    "name_en": "Irabu-jima",
+    "area_ha": 1198,
+    "cane_t": 57551,
+    "sugar_t": 4910,
+    "sugar_type": "分みつ糖",
+    "lat": 24.8347,
+    "lon": 125.1917,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) (伊良部) (printed p.14, PDF p.15)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): 宮古製糖KK伊良部工場 only (processed 43,405 t); remaining 伊良部 cane went to 城辺工場"
+   },
+   {
+    "name_ja": "多良間島",
+    "name_en": "Tarama-jima",
+    "area_ha": 370,
+    "cane_t": 25101,
+    "sugar_t": 3506,
+    "sugar_type": "含みつ糖",
+    "lat": 24.6591,
+    "lon": 124.7001,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) 多良間村 (printed p.14, PDF p.15)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): 宮古製糖KK多良間工場"
+   },
+   {
+    "name_ja": "石垣島",
+    "name_en": "Ishigaki-jima",
+    "area_ha": 1328,
+    "cane_t": 64845,
+    "sugar_t": 7063,
+    "sugar_type": "分みつ糖",
+    "lat": 24.4154,
+    "lon": 124.2039,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) 石垣市 (printed p.14, PDF p.15)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): 石垣島製糖KK"
+   },
+   {
+    "name_ja": "小浜島",
+    "name_en": "Kohama-jima",
+    "area_ha": 79,
+    "cane_t": 3365,
+    "sugar_t": 396,
+    "sugar_type": "含みつ糖",
+    "lat": 24.3383,
+    "lon": 123.9778,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) (小浜) (printed p.15, PDF p.16)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): JA小浜製糖工場"
+   },
+   {
+    "name_ja": "西表島",
+    "name_en": "Iriomote-jima",
+    "area_ha": 150,
+    "cane_t": 7282,
+    "sugar_t": 984,
+    "sugar_type": "含みつ糖",
+    "lat": 24.3428,
+    "lon": 123.8134,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) (西表) (printed p.15, PDF p.16)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): 西表糖業KK"
+   },
+   {
+    "name_ja": "波照間島",
+    "name_en": "Hateruma-jima",
+    "area_ha": 228,
+    "cane_t": 11719,
+    "sugar_t": 1710,
+    "sugar_type": "含みつ糖",
+    "lat": 24.0566,
+    "lon": 123.7811,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) (波照間) (printed p.15, PDF p.16)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): 波照間製糖KK"
+   },
+   {
+    "name_ja": "与那国島",
+    "name_en": "Yonaguni-jima",
+    "area_ha": 68,
+    "cane_t": 2292,
+    "sugar_t": 246,
+    "sugar_type": "含みつ糖",
+    "lat": 24.468,
+    "lon": 123.0046,
+    "coord_precision": "approx: GSI place-name representative point for the island (or municipality office point where noted), not a computed centroid",
+    "area_cane_source": "5.(2) 市町村別(地区別) 与那国町 (printed p.15, PDF p.16)",
+    "sugar_source": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖/(2)含蜜糖, 産糖実績 産糖量(A) (printed p.9-10, PDF p.10-11): JA与那国支店製糖工場"
+   }
+  ],
+  "island_sum_check": {
+   "area_ha": 13639,
+   "cane_t": 765771,
+   "sugar_t": 91713,
+   "note": "sum of island rows; 沖縄島 area 2,115 ha is from factory table (本島分) while municipal rows 本島北部+中部+南部本島 = 668+392+1,056 = 2,116 ha (rounding)"
+  },
+  "sources": [
+   {
+    "publisher": "沖縄県農林水産部 糖業農産課",
+    "title": "令和7/8年期 さとうきび及び甘しゃ糖生産実績（令和8年8月） 1 さとうきび及び甘しゃ糖生産実績",
+    "url": "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf",
+    "table": "Ⅰ-1 さとうきび及び甘しゃ糖生産実績 (収穫面積/生産量/甘しゃ糖の生産状況)",
+    "page": "printed p.1-2 (PDF p.2-3)",
+    "accessed": "2026-11-08"
+   },
+   {
+    "publisher": "沖縄県農林水産部 糖業農産課",
+    "title": "同上",
+    "url": "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf",
+    "table": "4. 令和7/8年期工場別甘しゃ糖生産実績の対比 (1)分蜜糖 (2)含蜜糖",
+    "page": "printed p.9-10 (PDF p.10-11)",
+    "accessed": "2026-11-08"
+   },
+   {
+    "publisher": "沖縄県農林水産部 糖業農産課",
+    "title": "同上",
+    "url": "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf",
+    "table": "5. 令和7/8年期さとうきび作型別生産実績 (2)市町村別(地区別) / (3)工場別",
+    "page": "printed p.12-17 (PDF p.13-18)",
+    "accessed": "2026-11-08"
+   },
+   {
+    "publisher": "沖縄県農林水産部 糖業農産課",
+    "title": "同上",
+    "url": "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf",
+    "table": "7. 令和7/8年期工場別製糖実績 (1)分蜜糖 (2)含蜜糖 (製糖開始/終了月日)",
+    "page": "printed p.21-23 (PDF p.22-24)",
+    "accessed": "2026-11-08"
+   },
+   {
+    "publisher": "沖縄県",
+    "title": "令和7/8年期 さとうきび甘しゃ糖生産実績 (landing page, 更新日2026年9月8日)",
+    "url": "https://www.pref.okinawa.jp/shigoto/nogyo/1010390/1023584/1041379.html",
+    "table": null,
+    "page": null,
+    "accessed": "2026-11-08"
+   }
+  ]
+ },
+ "kagoshima": {
+  "year_label_ja": "令和7年産（令和7/8年期）",
+  "year_label_en": "2025 crop (2025/26 season)",
+  "total": {
+   "area_ha": 9624,
+   "cane_t": 611387,
+   "sugar_t": 72705,
+   "sugar_bunmitsu_t": 72191,
+   "sugar_ganmitsu_t": 514,
+   "yield_kg_per_10a": 6353
+  },
+  "subtotals": {
+   "kumage_area": {
+    "area_ha": 2382,
+    "cane_t": 176576,
+    "sugar_t": 17744
+   },
+   "oshima_area": {
+    "area_ha": 7242,
+    "cane_t": 434811,
+    "sugar_t": 54961
+   }
+  },
+  "islands": [
+   {
+    "name_ja": "種子島",
+    "name_en": "Tanegashima",
+    "area_ha": 2382,
+    "cane_t": 176576,
+    "sugar_t": 17744,
+    "sugar_bunmitsu_t": 17699,
+    "sugar_ganmitsu_t": 45,
+    "sugar_type": "分みつ糖+含みつ糖",
+    "lat": 30.5331,
+    "lon": 130.9586,
+    "coord_precision": "approx: GSI point for 中種子町 (municipality office), proxy for island centre",
+    "source_table": "Ⅱ-1 島別生産実績 (収穫面積, 生産量, 分みつ糖 産糖量, 含みつ糖 産糖量, 産糖量合計)",
+    "source_page": "printed p.11 (PDF p.16-17)"
+   },
+   {
+    "name_ja": "奄美大島",
+    "name_en": "Amami-Oshima",
+    "area_ha": 537,
+    "cane_t": 31151,
+    "sugar_t": 3893,
+    "sugar_bunmitsu_t": 3610,
+    "sugar_ganmitsu_t": 283,
+    "sugar_type": "分みつ糖+含みつ糖",
+    "lat": 28.3777,
+    "lon": 129.4938,
+    "coord_precision": "approx: GSI point for 奄美市 (municipality office), proxy",
+    "source_table": "Ⅱ-1 島別生産実績 (収穫面積, 生産量, 分みつ糖 産糖量, 含みつ糖 産糖量, 産糖量合計)",
+    "source_page": "printed p.11 (PDF p.16-17)"
+   },
+   {
+    "name_ja": "喜界島",
+    "name_en": "Kikaijima",
+    "area_ha": 1305,
+    "cane_t": 79261,
+    "sugar_t": 10202,
+    "sugar_bunmitsu_t": 10147,
+    "sugar_ganmitsu_t": 55,
+    "sugar_type": "分みつ糖+含みつ糖",
+    "lat": 28.3229,
+    "lon": 129.9736,
+    "coord_precision": "approx: GSI place-name point 喜界島",
+    "source_table": "Ⅱ-1 島別生産実績 (収穫面積, 生産量, 分みつ糖 産糖量, 含みつ糖 産糖量, 産糖量合計)",
+    "source_page": "printed p.11 (PDF p.16-17)"
+   },
+   {
+    "name_ja": "徳之島",
+    "name_en": "Tokunoshima",
+    "area_ha": 3198,
+    "cane_t": 196275,
+    "sugar_t": 25344,
+    "sugar_bunmitsu_t": 25214,
+    "sugar_ganmitsu_t": 130,
+    "sugar_type": "分みつ糖+含みつ糖",
+    "lat": 27.7892,
+    "lon": 128.9748,
+    "coord_precision": "approx: GSI place-name point 徳之島",
+    "source_table": "Ⅱ-1 島別生産実績 (収穫面積, 生産量, 分みつ糖 産糖量, 含みつ糖 産糖量, 産糖量合計)",
+    "source_page": "printed p.11 (PDF p.16-17)"
+   },
+   {
+    "name_ja": "沖永良部島",
+    "name_en": "Okinoerabu-jima",
+    "area_ha": 1795,
+    "cane_t": 104601,
+    "sugar_t": 12789,
+    "sugar_bunmitsu_t": 12787,
+    "sugar_ganmitsu_t": 2,
+    "sugar_type": "分みつ糖+含みつ糖",
+    "lat": 27.3653,
+    "lon": 128.6147,
+    "coord_precision": "approx: midpoint of GSI points for 和泊町 and 知名町 offices (approx)",
+    "source_table": "Ⅱ-1 島別生産実績 (収穫面積, 生産量, 分みつ糖 産糖量, 含みつ糖 産糖量, 産糖量合計)",
+    "source_page": "printed p.11 (PDF p.16-17)"
+   },
+   {
+    "name_ja": "与論島",
+    "name_en": "Yoron-jima",
+    "area_ha": 407,
+    "cane_t": 23523,
+    "sugar_t": 2734,
+    "sugar_bunmitsu_t": 2734,
+    "sugar_ganmitsu_t": null,
+    "sugar_type": "分みつ糖",
+    "lat": 27.0444,
+    "lon": 128.433,
+    "coord_precision": "approx: GSI place-name point 与論島",
+    "source_table": "Ⅱ-1 島別生産実績 (収穫面積, 生産量, 分みつ糖 産糖量, 含みつ糖 産糖量, 産糖量合計)",
+    "source_page": "printed p.11 (PDF p.16-17)",
+    "note": "含みつ糖 columns blank for 与論島 in the table"
+   }
+  ],
+  "sources": [
+   {
+    "publisher": "鹿児島県農政部農産園芸課",
+    "title": "令和7年産 さとうきび及び甘しゃ糖生産実績（令和7/8年期）令和8年9月",
+    "url": "https://www.pref.kagoshima.jp/ag06/sangyo-rodo/nogyo/nosanbutu/satokibi/documents/41531_20261007151914-1.pdf",
+    "table": "Ⅱ-1 島別生産実績",
+    "page": "printed p.11 (PDF p.16-17)",
+    "accessed": "2026-11-08"
+   },
+   {
+    "publisher": "鹿児島県農政部農産園芸課",
+    "title": "同上",
+    "url": "https://www.pref.kagoshima.jp/ag06/sangyo-rodo/nogyo/nosanbutu/satokibi/documents/41531_20261007151914-1.pdf",
+    "table": "Ⅱ-8 甘しゃ糖生産実績 (市町村別)",
+    "page": "printed p.18 (PDF p.23-24)",
+    "accessed": "2026-11-08"
+   },
+   {
+    "publisher": "鹿児島県農政部農産園芸課",
+    "title": "同上",
+    "url": "https://www.pref.kagoshima.jp/ag06/sangyo-rodo/nogyo/nosanbutu/satokibi/documents/41531_20261007151914-1.pdf",
+    "table": "Ⅱ-9 分みつ糖工場操業実績 (1)原料処理量，産糖量及びバガス生産量",
+    "page": "printed p.19 (PDF p.24-25)",
+    "accessed": "2026-11-08"
+   },
+   {
+    "publisher": "鹿児島県",
+    "title": "さとうきび及び甘しゃ糖の生産状況（令和7年産） landing page (更新日2026年10月19日)",
+    "url": "https://www.pref.kagoshima.jp/ag06/sangyo-rodo/nogyo/nosanbutu/satokibi/seisannjyoukyou.html",
+    "table": null,
+    "page": null,
+    "accessed": "2026-11-08"
+   }
+  ],
+  "note_on_alic": "The ALIC 砂糖類情報 article by 鹿児島県糖業振興協会 was not fetched; the prefecture's own report (same season) was used instead."
+ },
+ "factories": [
+  {
+   "company_ja": "ゆがふ製糖株式会社",
+   "company_en": "Yugafu Seito",
+   "name_ja": "ゆがふ製糖 本社・工場",
+   "island_ja": "沖縄島",
+   "island_en": "Okinawa Island",
+   "municipality_ja": "うるま市",
+   "address_ja": "沖縄県うるま市字川田330-1",
+   "lat": 26.34411,
+   "lon": 127.86083,
+   "coord_precision": "番地-level (GSI address geocode of official address)",
+   "sugar_type": "分みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/bunmitu.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ],
+   "note": "Only 分蜜糖 factory on Okinawa main island in R7/8 report; cane from 北地区 and 南部地区 both processed here (no separate 北部製糖/翔南製糖 entries in R7/8 tables)."
+  },
+  {
+   "company_ja": "沖縄県農業協同組合",
+   "company_en": "JA Okinawa",
+   "name_ja": "JAおきなわ伊是名支店製糖工場",
+   "island_ja": "伊是名島",
+   "island_en": "Izena-jima",
+   "municipality_ja": "伊是名村",
+   "address_ja": "沖縄県島尻郡伊是名村字仲田332",
+   "lat": 26.92514,
+   "lon": 127.94614,
+   "coord_precision": "字/大字-level (GSI geocoder matched only to 字; official address has 番地)",
+   "sugar_type": "分みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/bunmitu.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "久米島製糖株式会社",
+   "company_en": "Kumejima Seito",
+   "name_ja": "久米島製糖 工場",
+   "island_ja": "久米島",
+   "island_en": "Kume-jima",
+   "municipality_ja": "久米島町",
+   "address_ja": "沖縄県島尻郡久米島町字儀間288",
+   "lat": 26.33162,
+   "lon": 126.77216,
+   "coord_precision": "字/大字-level (GSI geocoder matched only to 字; official address has 番地)",
+   "sugar_type": "分みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/bunmitu.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "大東糖業株式会社",
+   "company_en": "Daito Togyo",
+   "name_ja": "大東糖業 工場",
+   "island_ja": "南大東島",
+   "island_en": "Minami-Daito-jima",
+   "municipality_ja": "南大東村",
+   "address_ja": "沖縄県島尻郡南大東村字在所182",
+   "lat": 25.8363,
+   "lon": 131.23509,
+   "coord_precision": "字/大字-level (GSI geocoder matched only to 字; official address has 番地)",
+   "sugar_type": "分みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/bunmitu.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "北大東製糖株式会社",
+   "company_en": "Kita-Daito Seito",
+   "name_ja": "北大東製糖 工場",
+   "island_ja": "北大東島",
+   "island_en": "Kita-Daito-jima",
+   "municipality_ja": "北大東村",
+   "address_ja": "沖縄県島尻郡北大東村字中野245",
+   "lat": 25.94754,
+   "lon": 131.30238,
+   "coord_precision": "字/大字-level (GSI geocoder matched only to 字; official address has 番地)",
+   "sugar_type": "分みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/bunmitu.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "沖縄製糖株式会社",
+   "company_en": "Okinawa Seito",
+   "name_ja": "沖縄製糖 工場（宮古）",
+   "island_ja": "宮古島",
+   "island_en": "Miyako-jima",
+   "municipality_ja": "宮古島市",
+   "address_ja": "沖縄県宮古島市下地字上地725",
+   "lat": 24.75273,
+   "lon": 125.28697,
+   "coord_precision": "番地-level (GSI address geocode of official address)",
+   "sugar_type": "分みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/bunmitu.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "宮古製糖株式会社",
+   "company_en": "Miyako Seito",
+   "name_ja": "宮古製糖 城辺工場（本社）",
+   "island_ja": "宮古島",
+   "island_en": "Miyako-jima",
+   "municipality_ja": "宮古島市",
+   "address_ja": "沖縄県宮古島市城辺字砂川836",
+   "lat": 24.73231,
+   "lon": 125.35058,
+   "coord_precision": "番地-level (GSI address geocode of official address)",
+   "sugar_type": "分みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/bunmitu.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "宮古製糖株式会社",
+   "company_en": "Miyako Seito",
+   "name_ja": "宮古製糖 伊良部工場",
+   "island_ja": "伊良部島",
+   "island_en": "Irabu-jima",
+   "municipality_ja": "宮古島市",
+   "address_ja": "沖縄県宮古島市伊良部字伊良部1391",
+   "lat": 24.83527,
+   "lon": 125.18604,
+   "coord_precision": "字/大字-level (GSI geocoder matched only to 字; official address has 番地)",
+   "sugar_type": "分みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/bunmitu.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "石垣島製糖株式会社",
+   "company_en": "Ishigakijima Seito",
+   "name_ja": "石垣島製糖 本社・工場",
+   "island_ja": "石垣島",
+   "island_en": "Ishigaki-jima",
+   "municipality_ja": "石垣市",
+   "address_ja": "沖縄県石垣市字名蔵243",
+   "lat": 24.38971,
+   "lon": 124.15678,
+   "coord_precision": "番地-level (GSI address geocode of official address)",
+   "sugar_type": "分みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/bunmitu.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "沖縄県農業協同組合",
+   "company_en": "JA Okinawa",
+   "name_ja": "JAおきなわ伊平屋支店製糖工場",
+   "island_ja": "伊平屋島",
+   "island_en": "Iheya-jima",
+   "municipality_ja": "伊平屋村",
+   "address_ja": "沖縄県伊平屋村我喜屋257",
+   "lat": 27.03622,
+   "lon": 127.9568,
+   "coord_precision": "字/大字-level (GSI geocoder matched only to 字; official address has 番地)",
+   "sugar_type": "含みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/ganmitsutou.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "沖縄県農業協同組合",
+   "company_en": "JA Okinawa",
+   "name_ja": "JAおきなわ伊江支店製糖工場",
+   "island_ja": "伊江島",
+   "island_en": "Ie-jima",
+   "municipality_ja": "伊江村",
+   "address_ja": "沖縄県伊江村東江前1632",
+   "lat": 26.71919,
+   "lon": 127.82191,
+   "coord_precision": "字/大字-level (GSI geocoder matched only to 字; official address has 番地)",
+   "sugar_type": "含みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/ganmitsutou.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "沖縄県農業協同組合",
+   "company_en": "JA Okinawa",
+   "name_ja": "JAおきなわ粟国支店製糖工場",
+   "island_ja": "粟国島",
+   "island_en": "Aguni-jima",
+   "municipality_ja": "粟国村",
+   "address_ja": "沖縄県粟国村東7277",
+   "lat": 26.58986,
+   "lon": 127.23139,
+   "coord_precision": "字/大字-level (GSI geocoder matched only to 字; official address has 番地)",
+   "sugar_type": "含みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/ganmitsutou.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "宮古製糖株式会社",
+   "company_en": "Miyako Seito",
+   "name_ja": "宮古製糖 多良間工場",
+   "island_ja": "多良間島",
+   "island_en": "Tarama-jima",
+   "municipality_ja": "多良間村",
+   "address_ja": "沖縄県宮古郡多良間村塩川2795",
+   "lat": 24.65699,
+   "lon": 124.714,
+   "coord_precision": "字/大字-level (GSI geocoder matched only to 字; official address has 番地)",
+   "sugar_type": "含みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/ganmitsutou.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "沖縄県農業協同組合",
+   "company_en": "JA Okinawa",
+   "name_ja": "JA小浜製糖工場",
+   "island_ja": "小浜島",
+   "island_en": "Kohama-jima",
+   "municipality_ja": "竹富町",
+   "address_ja": "沖縄県八重山郡竹富町小浜3232",
+   "lat": 24.33908,
+   "lon": 123.98016,
+   "coord_precision": "字/大字-level (GSI geocoder matched only to 字; official address has 番地)",
+   "sugar_type": "含みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/ganmitsutou.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "西表製糖株式会社（生産実績表では「西表糖業KK」）",
+   "company_en": "Iriomote Seito",
+   "name_ja": "西表製糖 工場",
+   "island_ja": "西表島",
+   "island_en": "Iriomote-jima",
+   "municipality_ja": "竹富町",
+   "address_ja": "沖縄県竹富町南風見333-41",
+   "lat": 24.28278,
+   "lon": 123.84576,
+   "coord_precision": "字/大字-level (GSI geocoder matched only to 字; official address has 番地)",
+   "sugar_type": "含みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/ganmitsutou.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ],
+   "note": "Company name differs between the prefecture factory list (西表製糖株式会社) and the R7/8 production tables (西表糖業KK)."
+  },
+  {
+   "company_ja": "波照間製糖株式会社",
+   "company_en": "Hateruma Seito",
+   "name_ja": "波照間製糖 工場",
+   "island_ja": "波照間島",
+   "island_en": "Hateruma-jima",
+   "municipality_ja": "竹富町",
+   "address_ja": "沖縄県八重山郡竹富町波照間418",
+   "lat": 24.05859,
+   "lon": 123.78243,
+   "coord_precision": "字/大字-level (GSI geocoder matched only to 字; official address has 番地)",
+   "sugar_type": "含みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/ganmitsutou.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "沖縄県農業協同組合",
+   "company_en": "JA Okinawa",
+   "name_ja": "JAおきなわ与那国支店製糖工場",
+   "island_ja": "与那国島",
+   "island_en": "Yonaguni-jima",
+   "municipality_ja": "与那国町",
+   "address_ja": "沖縄県与那国町与那国4792",
+   "lat": 24.45593,
+   "lon": 122.98768,
+   "coord_precision": "字/大字-level (GSI geocoder matched only to 字; official address has 番地)",
+   "sugar_type": "含みつ糖",
+   "status": "operating (processed cane in 令和7/8年期)",
+   "source_url": [
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/ganmitsutou.pdf",
+    "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+   ]
+  },
+  {
+   "company_ja": "新光糖業株式会社",
+   "company_en": "Shinko Togyo",
+   "name_ja": "新光糖業 中種子工場",
+   "island_ja": "種子島",
+   "island_en": "Tanegashima",
+   "municipality_ja": "中種子町",
+   "address_ja": null,
+   "lat": 30.53306,
+   "lon": 130.95862,
+   "coord_precision": "municipality-level (GSI point for municipality office); factory address not found in an official source",
+   "sugar_type": "分みつ糖",
+   "status": "operating (listed in Ⅱ-9 分みつ糖工場操業実績, 令和7年産)",
+   "source_url": [
+    "https://www.pref.kagoshima.jp/ag06/sangyo-rodo/nogyo/nosanbutu/satokibi/documents/41531_20261007151914-1.pdf"
+   ],
+   "note": "Factory name '中種子' from Ⅱ-9 分みつ糖工場操業実績 (printed p.19); registered HQ (NTA) is in 大阪市城東区, not the factory."
+  },
+  {
+   "company_ja": "富国製糖株式会社",
+   "company_en": "Fukoku Seito",
+   "name_ja": "富国製糖 奄美工場",
+   "island_ja": "奄美大島",
+   "island_en": "Amami-Oshima",
+   "municipality_ja": "奄美市",
+   "address_ja": null,
+   "lat": 28.37767,
+   "lon": 129.49383,
+   "coord_precision": "municipality-level (GSI point for municipality office); factory address not found in an official source",
+   "sugar_type": "分みつ糖",
+   "status": "operating (listed in Ⅱ-9 分みつ糖工場操業実績, 令和7年産)",
+   "source_url": [
+    "https://www.pref.kagoshima.jp/ag06/sangyo-rodo/nogyo/nosanbutu/satokibi/documents/41531_20261007151914-1.pdf"
+   ],
+   "note": "Factory name '奄美'; registered HQ (NTA) 鹿児島市泉町. Municipality 奄美市 inferred from factory name and Ⅱ-8 table (奄美市 cane processed by 富国製糖)."
+  },
+  {
+   "company_ja": "生和糖業株式会社",
+   "company_en": "Seiwa Togyo",
+   "name_ja": "生和糖業 喜界工場",
+   "island_ja": "喜界島",
+   "island_en": "Kikaijima",
+   "municipality_ja": "喜界町",
+   "address_ja": null,
+   "lat": 28.31694,
+   "lon": 129.94,
+   "coord_precision": "municipality-level (GSI point for municipality office); factory address not found in an official source",
+   "sugar_type": "分みつ糖",
+   "status": "operating (listed in Ⅱ-9 分みつ糖工場操業実績, 令和7年産)",
+   "source_url": [
+    "https://www.pref.kagoshima.jp/ag06/sangyo-rodo/nogyo/nosanbutu/satokibi/documents/41531_20261007151914-1.pdf"
+   ],
+   "note": "Registered HQ (NTA) 鹿児島市金生町."
+  },
+  {
+   "company_ja": "南西糖業株式会社",
+   "company_en": "Nansei Togyo",
+   "name_ja": "南西糖業 伊仙工場",
+   "island_ja": "徳之島",
+   "island_en": "Tokunoshima",
+   "municipality_ja": "伊仙町",
+   "address_ja": null,
+   "lat": 27.67316,
+   "lon": 128.93771,
+   "coord_precision": "municipality-level (GSI point for municipality office); factory address not found in an official source",
+   "sugar_type": "分みつ糖",
+   "status": "operating (listed in Ⅱ-9 分みつ糖工場操業実績, 令和7年産)",
+   "source_url": [
+    "https://www.pref.kagoshima.jp/ag06/sangyo-rodo/nogyo/nosanbutu/satokibi/documents/41531_20261007151914-1.pdf"
+   ],
+   "note": "Registered HQ (NTA) 東京都千代田区."
+  },
+  {
+   "company_ja": "南西糖業株式会社",
+   "company_en": "Nansei Togyo",
+   "name_ja": "南西糖業 徳和瀬工場",
+   "island_ja": "徳之島",
+   "island_en": "Tokunoshima",
+   "municipality_ja": "徳之島町",
+   "address_ja": null,
+   "lat": 27.75454,
+   "lon": 129.02435,
+   "coord_precision": "字-level (GSI point for 徳之島町徳和瀬, the factory's place name); exact address not found",
+   "sugar_type": "分みつ糖",
+   "status": "operating (listed in Ⅱ-9 分みつ糖工場操業実績, 令和7年産)",
+   "source_url": [
+    "https://www.pref.kagoshima.jp/ag06/sangyo-rodo/nogyo/nosanbutu/satokibi/documents/41531_20261007151914-1.pdf"
+   ]
+  },
+  {
+   "company_ja": "南栄糖業株式会社",
+   "company_en": "Nan'ei Togyo",
+   "name_ja": "南栄糖業 和泊工場",
+   "island_ja": "沖永良部島",
+   "island_en": "Okinoerabu-jima",
+   "municipality_ja": "和泊町",
+   "address_ja": "鹿児島県大島郡和泊町大字皆川891 (registered HQ per NTA 法人番号公表サイト; assumed co-located with factory, unverified)",
+   "lat": 27.37093,
+   "lon": 128.63249,
+   "coord_precision": "大字-level (GSI matched 和泊町皆川)",
+   "sugar_type": "分みつ糖",
+   "status": "operating (listed in Ⅱ-9 分みつ糖工場操業実績, 令和7年産)",
+   "source_url": [
+    "https://www.pref.kagoshima.jp/ag06/sangyo-rodo/nogyo/nosanbutu/satokibi/documents/41531_20261007151914-1.pdf",
+    "https://www.houjin-bangou.nta.go.jp/"
+   ]
+  },
+  {
+   "company_ja": "与論島製糖株式会社",
+   "company_en": "Yoronjima Seito",
+   "name_ja": "与論島製糖 与論工場",
+   "island_ja": "与論島",
+   "island_en": "Yoron-jima",
+   "municipality_ja": "与論町",
+   "address_ja": null,
+   "lat": 27.04495,
+   "lon": 128.42163,
+   "coord_precision": "municipality-level (GSI point for municipality office); factory address not found in an official source",
+   "sugar_type": "分みつ糖",
+   "status": "operating (listed in Ⅱ-9 分みつ糖工場操業実績, 令和7年産)",
+   "source_url": [
+    "https://www.pref.kagoshima.jp/ag06/sangyo-rodo/nogyo/nosanbutu/satokibi/documents/41531_20261007151914-1.pdf"
+   ],
+   "note": "Registered HQ (NTA) 鹿児島市泉町 (same address as 富国製糖)."
+  }
+ ],
+ "season": {
+  "harvest_months": "December to April/May (2025/26: earliest start 1 Dec 2025, last finish 19 May 2026)",
+  "okinawa": {
+   "text": "Okinawa factories, 7. 工場別製糖実績 R7/8: 製糖開始 12/1 (宮古製糖 城辺・伊良部, JA伊江) to 12/23 (ゆがふ製糖); 製糖終了 3/7 (西表) to 5/3 (JA伊江, 宮古製糖多良間). Bunmitsu factories: 12/1-4/28.",
+   "source": {
+    "url": "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf",
+    "table": "7. 令和7/8年期工場別製糖実績 (1)分蜜糖 (2)含蜜糖",
+    "page": "printed p.21-23 (PDF p.22-24)"
+   }
+  },
+  "kagoshima": {
+   "text": "Kagoshima 分みつ糖 factories R7年産: 搬入開始 R7.12.1 (新光糖業 中種子, 南栄糖業 和泊), R7.12.3 (生和糖業), R7.12.10 (富国製糖, 南西糖業 伊仙・徳和瀬), R7.12.12 (与論島製糖); 製糖終了 R8.3.23 (与論) to R8.5.19 (新光糖業 中種子). 製糖期間 = 搬入開始〜製糖終了 incl. idle days.",
+   "source": {
+    "url": "https://www.pref.kagoshima.jp/ag06/sangyo-rodo/nogyo/nosanbutu/satokibi/documents/41531_20261007151914-1.pdf",
+    "table": "Ⅱ-9 分みつ糖工場操業実績 (1)",
+    "page": "printed p.19 (PDF p.24-25)"
+   }
+  },
+  "note": "Harvest runs in step with factory intake (cane is crushed within days of cutting); 'harvest months' here are inferred from factory intake/manufacturing dates, not a separate harvest-date statistic."
+ },
+ "geocoder": {
+  "name": "国土地理院 地理院地図 住所検索API",
+  "url": "https://msearch.gsi.go.jp/address-search/AddressSearch",
+  "accessed": "2026-11-08"
+ },
+ "notes": [
+  "Latest season available for both prefectures as of 2026-11-08 is 令和7/8年期 (2025 crop), not 令和6/7. Okinawa R7/8 report dated 令和8年8月 (page updated 2026-09-08); Kagoshima R7年産 report dated 令和8年9月 (page updated 2026-10-19).",
+  "Okinawa 宮古島/伊良部島 sugar values are factory-based: 宮古製糖 城辺工場 also processed some 伊良部 cane, so per-island sugar does not map exactly onto per-island cane.",
+  "Okinawa island list covers the 16 islands that have a sugar factory; island rows sum to 13,639 ha / 765,771 t / 91,713 t vs report total 13,638 ha (rounding). 竹富町 split into 小浜/西表/波照間 per the table's sub-rows.",
+  "Kagoshima island rows sum to 9,624 ha / 611,387 t / 72,706 t vs report total sugar 72,705 t (rounding, per table note). Kagoshima per-island sugar = 分みつ糖 (company factory) + 含みつ糖 (small factories: 種子島7, 奄美大島15, 喜界島11, 徳之島9, 沖永良部島1, 与論島0; total 43 per Ⅱ-1). Individual small 含みつ糖 factories not listed (no official list fetched).",
+  "Kagoshima factory exact addresses were not found in an official source; coordinates are municipality- or 字-level. Okinawa factory addresses come from the prefecture's 分蜜糖工場/含蜜糖工場 lists; coordinates from GSI (国土地理院) address search, precision noted per record.",
+  "Okinawa main island: R7/8 tables show only ゆがふ製糖KK (北地区/南部地区 = cane catchment areas). 北部製糖 and 翔南製糖 do not appear in R7/8 tables or the prefecture factory list (status of those plants not separately verified).",
+  "ALIC 砂糖類情報 article (鹿児島県糖業振興協会) not used; prefectural reports are primary sources.",
+  "Island lat/lon are approximate representative points from GSI place-name/municipality search, not polygon centroids."
+ ]
+}

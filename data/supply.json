@@ -1,0 +1,41 @@
+{
+  "unit": "thousand t",
+  "basis_ja": "分蜜糖は精製糖ベース、含蜜糖は製品ベース。砂糖年度は当該年10月1日から翌年9月30日まで。",
+  "basis_en": "Centrifugal sugar on a refined-sugar basis; non-centrifugal sugar on a product basis. A sugar year runs from 1 October to 30 September.",
+  "source": {
+    "publisher_ja": "農林水産省",
+    "publisher_en": "Ministry of Agriculture, Forestry and Fisheries (MAFF)",
+    "title_ja": "令和8砂糖年度における砂糖及び異性化糖の需給見通し（第1回）（令和8年9月）",
+    "title_en": "Outlook for supply and demand of sugar and isomerized sugar, sugar year 2026 (1st, September 2026)",
+    "url": "https://www.maff.go.jp/j/seisan/tokusan/kansho/attach/pdf/satou-42.pdf",
+    "accessed": "2026-11-08",
+    "transcribed_from_pdf": true
+  },
+  "balance": {
+    "table_ja": "参考資料 1．砂糖及び異性化糖の需給総括表",
+    "page": "PDF p.6",
+    "years": [
+      {"key": "2024", "label_ja": "令和6砂糖年度（実績）", "label_en": "Sugar year 2024/25 (actual)", "status": "actual",
+       "total_demand": 1809, "domestic": 694, "beet": 540, "beet_white": 412, "beet_raw": 128, "cane": 144, "imports": 1135, "self_sufficiency_pct": 38},
+      {"key": "2025", "label_ja": "令和7砂糖年度（見込み）", "label_en": "Sugar year 2025/26 (estimate)", "status": "estimate",
+       "total_demand": 1797, "domestic": 648, "beet": 490, "beet_white": 390, "beet_raw": 101, "cane": 148, "imports": 1144, "self_sufficiency_pct": 36},
+      {"key": "2026", "label_ja": "令和8砂糖年度（見通し）", "label_en": "Sugar year 2026/27 (outlook)", "status": "outlook",
+       "total_demand": 1809, "domestic": 665, "beet": 519, "beet_white": 390, "beet_raw": 129, "cane": 137, "imports": 1144, "self_sufficiency_pct": 37}
+    ],
+    "notes_ja": ["国内産糖生産量の合計には含蜜糖生産量を含む。", "国内産糖生産量と輸入量の合計と総需要量の差は在庫変動。", "輸入量は通関実績。", "自給率は表中の「②／①」（国内産糖生産量÷総需要量）。"],
+    "notes_en": ["Domestic production includes non-centrifugal (brown) sugar.", "Domestic production plus imports differs from total demand by stock changes.", "Imports are customs clearance figures.", "Self-sufficiency is the table's ratio (2)/(1): domestic production divided by total demand."]
+  },
+  "raw_sugar_imports": {
+    "table_ja": "7．粗糖の輸入実績（資料：財務省「日本貿易統計」）",
+    "page": "PDF p.12",
+    "year_label_ja": "令和6砂糖年度",
+    "year_label_en": "Sugar year 2024/25",
+    "total": 1137,
+    "countries": [
+      {"iso": "AUS", "name_ja": "オーストラリア（高糖度原料糖）", "name_en": "Australia (high-pol raw sugar)", "value": 1051, "share_pct": 92.4},
+      {"iso": "THA", "name_ja": "タイ", "name_en": "Thailand", "value": 86, "share_pct": 7.6}
+    ],
+    "note_ja": "粗糖（甘しゃ粗糖、てん菜粗糖、高糖度原料糖）の輸入数量。令和7砂糖年度（10〜7月）はオーストラリア861千トン（90.9%）、タイ61千トン（6.5%）、メキシコ25千トン（2.6%）。",
+    "note_en": "Imports of raw sugar (cane raw sugar, beet raw sugar and high-pol raw sugar). Sugar year 2025/26 (Oct–Jul): Australia 861 kt (90.9%), Thailand 61 kt (6.5%), Mexico 25 kt (2.6%)."
+  }
+}

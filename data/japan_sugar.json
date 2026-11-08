@@ -1,0 +1,1136 @@
+{
+ "beet": {
+  "year_ja": "令和7年産",
+  "year_en": "the 2025 crop",
+  "sugar_year_ja": "令和7年産の産糖量、白糖と原料糖の合計",
+  "sugar_year_en": "2025 crop, white and raw sugar as produced",
+  "region_year_ja": "令和7年産、作付面積",
+  "region_year_en": "2025 crop, planted area",
+  "region_src_ja": "北海道農政部「令和7年産 てん菜生産実績」（PDFから書き起こし）",
+  "region_src_en": "Hokkaido Government, sugar beet production results 2025 (transcribed from PDF)",
+  "region_metric": "area_ha",
+  "area_ha": 47965.49,
+  "harvest_t": 3194632.98,
+  "sugar_t": 490907.01,
+  "regions": [
+   {
+    "n03": "空知総合振興局",
+    "name_ja": "空知",
+    "name_en": "Sorachi",
+    "area_ha": 569.13,
+    "harvest_t": 40049.34
+   },
+   {
+    "n03": "石狩総合振興局",
+    "name_ja": "石狩",
+    "name_en": "Ishikari",
+    "area_ha": 943.88,
+    "harvest_t": 60223.31
+   },
+   {
+    "n03": "後志総合振興局",
+    "name_ja": "後志",
+    "name_en": "Shiribeshi",
+    "area_ha": 1071.19,
+    "harvest_t": 62427.34
+   },
+   {
+    "n03": "胆振総合振興局",
+    "name_ja": "胆振",
+    "name_en": "Iburi",
+    "area_ha": 966.44,
+    "harvest_t": 52386.31
+   },
+   {
+    "n03": "日高振興局",
+    "name_ja": "日高",
+    "name_en": "Hidaka",
+    "area_ha": 17.12,
+    "harvest_t": 1083.18
+   },
+   {
+    "n03": "渡島総合振興局",
+    "name_ja": "渡島",
+    "name_en": "Oshima",
+    "area_ha": 76.01,
+    "harvest_t": 2937.05
+   },
+   {
+    "n03": "檜山振興局",
+    "name_ja": "檜山",
+    "name_en": "Hiyama",
+    "area_ha": 205.47,
+    "harvest_t": 7967.63
+   },
+   {
+    "n03": "上川総合振興局",
+    "name_ja": "上川",
+    "name_en": "Kamikawa",
+    "area_ha": 2882.36,
+    "harvest_t": 187552.24
+   },
+   {
+    "n03": "留萌振興局",
+    "name_ja": "留萌",
+    "name_en": "Rumoi",
+    "area_ha": 120.05,
+    "harvest_t": 6609.27
+   },
+   {
+    "n03": "宗谷振興局",
+    "name_ja": "宗谷",
+    "name_en": "Soya",
+    "area_ha": null,
+    "harvest_t": null
+   },
+   {
+    "n03": "オホーツク総合振興局",
+    "name_ja": "オホーツク",
+    "name_en": "Okhotsk",
+    "area_ha": 19462.05,
+    "harvest_t": 1306821.98
+   },
+   {
+    "n03": "十勝総合振興局",
+    "name_ja": "十勝",
+    "name_en": "Tokachi",
+    "area_ha": 21317.57,
+    "harvest_t": 1444673.42
+   },
+   {
+    "n03": "釧路総合振興局",
+    "name_ja": "釧路",
+    "name_en": "Kushiro",
+    "area_ha": 252.2,
+    "harvest_t": 16750.4
+   },
+   {
+    "n03": "根室振興局",
+    "name_ja": "根室",
+    "name_en": "Nemuro",
+    "area_ha": 82.02,
+    "harvest_t": 5151.51
+   }
+  ]
+ },
+ "cane": {
+  "okinawa": {
+   "year_ja": "令和7/8年期",
+   "year_en": "2025/26 season",
+   "area_ha": 13638,
+   "cane_t": 765771,
+   "sugar_t": 91713,
+   "src_ja": "沖縄県「令和7/8年期 さとうきび及び甘しゃ糖生産実績」（PDFから書き起こし）",
+   "src_en": "Okinawa Prefecture, sugarcane and cane sugar production results 2025/26 (transcribed from PDF)"
+  },
+  "kagoshima": {
+   "year_ja": "令和7年産",
+   "year_en": "2025 crop",
+   "area_ha": 9624,
+   "cane_t": 611387,
+   "sugar_t": 72705,
+   "src_ja": "鹿児島県「令和7年産 さとうきび及び甘しゃ糖生産実績」表Ⅱ-1（PDFから書き起こし）",
+   "src_en": "Kagoshima Prefecture, sugarcane and cane sugar production results, 2025 crop, table II-1 (transcribed from PDF)"
+  },
+  "lat_band": [
+   24,
+   31
+  ],
+  "islands": [
+   {
+    "id": "okinawa",
+    "pref": "okinawa",
+    "name_ja": "沖縄島（本島）",
+    "name_en": "Okinawa Island (main island)",
+    "lat": 26.22,
+    "lon": 127.7022,
+    "area_ha": 2115,
+    "cane_t": 114388,
+    "sugar_t": 14475,
+    "munis": [
+     "47201",
+     "47205",
+     "47208",
+     "47209",
+     "47210",
+     "47211",
+     "47212",
+     "47213",
+     "47215",
+     "47301",
+     "47302",
+     "47303",
+     "47306",
+     "47308",
+     "47311",
+     "47313",
+     "47314",
+     "47324",
+     "47325",
+     "47326",
+     "47327",
+     "47328",
+     "47329",
+     "47348",
+     "47350",
+     "47362"
+    ]
+   },
+   {
+    "id": "ie",
+    "pref": "okinawa",
+    "name_ja": "伊江島",
+    "name_en": "Ie-jima",
+    "lat": 26.7257,
+    "lon": 127.7934,
+    "area_ha": 89,
+    "cane_t": 7372,
+    "sugar_t": 954,
+    "munis": [
+     "47315"
+    ]
+   },
+   {
+    "id": "iheya",
+    "pref": "okinawa",
+    "name_ja": "伊平屋島",
+    "name_en": "Iheya-jima",
+    "lat": 27.0526,
+    "lon": 127.9751,
+    "area_ha": 141,
+    "cane_t": 5408,
+    "sugar_t": 623,
+    "munis": [
+     "47359"
+    ]
+   },
+   {
+    "id": "izena",
+    "pref": "okinawa",
+    "name_ja": "伊是名島",
+    "name_en": "Izena-jima",
+    "lat": 26.9203,
+    "lon": 127.9324,
+    "area_ha": 377,
+    "cane_t": 24187,
+    "sugar_t": 2903,
+    "munis": [
+     "47360"
+    ]
+   },
+   {
+    "id": "aguni",
+    "pref": "okinawa",
+    "name_ja": "粟国島",
+    "name_en": "Aguni-jima",
+    "lat": 26.5902,
+    "lon": 127.2315,
+    "area_ha": 43,
+    "cane_t": 2347,
+    "sugar_t": 301,
+    "munis": [
+     "47355"
+    ]
+   },
+   {
+    "id": "kume",
+    "pref": "okinawa",
+    "name_ja": "久米島",
+    "name_en": "Kume-jima",
+    "lat": 26.3413,
+    "lon": 126.7875,
+    "area_ha": 965,
+    "cane_t": 58707,
+    "sugar_t": 7186,
+    "munis": [
+     "47361"
+    ]
+   },
+   {
+    "id": "minamidaito",
+    "pref": "okinawa",
+    "name_ja": "南大東島",
+    "name_en": "Minami-Daito-jima",
+    "lat": 25.8451,
+    "lon": 131.2424,
+    "area_ha": 1337,
+    "cane_t": 88930,
+    "sugar_t": 9936,
+    "munis": [
+     "47357"
+    ]
+   },
+   {
+    "id": "kitadaito",
+    "pref": "okinawa",
+    "name_ja": "北大東島",
+    "name_en": "Kita-Daito-jima",
+    "lat": 25.9444,
+    "lon": 131.3104,
+    "area_ha": 406,
+    "cane_t": 25650,
+    "sugar_t": 2882,
+    "munis": [
+     "47358"
+    ]
+   },
+   {
+    "id": "miyako",
+    "pref": "okinawa",
+    "name_ja": "宮古島",
+    "name_en": "Miyako-jima",
+    "lat": 24.7905,
+    "lon": 125.3034,
+    "area_ha": 4745,
+    "cane_t": 266627,
+    "sugar_t": 33638,
+    "munis": [
+     "47214"
+    ],
+    "note_en": "Sugar is counted by factory; the Gusukube factory on Miyako also crushed some cane from Irabu.",
+    "note_ja": "産糖量は工場別の値。宮古島の城辺工場は伊良部島のさとうきびの一部も処理している。"
+   },
+   {
+    "id": "irabu",
+    "pref": "okinawa",
+    "name_ja": "伊良部島",
+    "name_en": "Irabu-jima",
+    "lat": 24.8347,
+    "lon": 125.1917,
+    "area_ha": 1198,
+    "cane_t": 57551,
+    "sugar_t": 4910,
+    "munis": [
+     "47214"
+    ],
+    "note_en": "Sugar is the Irabu factory's output only; part of Irabu's cane was crushed on Miyako.",
+    "note_ja": "産糖量は伊良部工場の値のみ。伊良部島のさとうきびの一部は宮古島の工場で処理されている。"
+   },
+   {
+    "id": "tarama",
+    "pref": "okinawa",
+    "name_ja": "多良間島",
+    "name_en": "Tarama-jima",
+    "lat": 24.6591,
+    "lon": 124.7001,
+    "area_ha": 370,
+    "cane_t": 25101,
+    "sugar_t": 3506,
+    "munis": [
+     "47375"
+    ]
+   },
+   {
+    "id": "ishigaki",
+    "pref": "okinawa",
+    "name_ja": "石垣島",
+    "name_en": "Ishigaki-jima",
+    "lat": 24.4154,
+    "lon": 124.2039,
+    "area_ha": 1328,
+    "cane_t": 64845,
+    "sugar_t": 7063,
+    "munis": [
+     "47207"
+    ]
+   },
+   {
+    "id": "kohama",
+    "pref": "okinawa",
+    "name_ja": "小浜島",
+    "name_en": "Kohama-jima",
+    "lat": 24.3383,
+    "lon": 123.9778,
+    "area_ha": 79,
+    "cane_t": 3365,
+    "sugar_t": 396,
+    "munis": [
+     "47381"
+    ]
+   },
+   {
+    "id": "iriomote",
+    "pref": "okinawa",
+    "name_ja": "西表島",
+    "name_en": "Iriomote-jima",
+    "lat": 24.3428,
+    "lon": 123.8134,
+    "area_ha": 150,
+    "cane_t": 7282,
+    "sugar_t": 984,
+    "munis": [
+     "47381"
+    ]
+   },
+   {
+    "id": "hateruma",
+    "pref": "okinawa",
+    "name_ja": "波照間島",
+    "name_en": "Hateruma-jima",
+    "lat": 24.0566,
+    "lon": 123.7811,
+    "area_ha": 228,
+    "cane_t": 11719,
+    "sugar_t": 1710,
+    "munis": [
+     "47381"
+    ]
+   },
+   {
+    "id": "yonaguni",
+    "pref": "okinawa",
+    "name_ja": "与那国島",
+    "name_en": "Yonaguni-jima",
+    "lat": 24.468,
+    "lon": 123.0046,
+    "area_ha": 68,
+    "cane_t": 2292,
+    "sugar_t": 246,
+    "munis": [
+     "47382"
+    ]
+   },
+   {
+    "id": "tanegashima",
+    "pref": "kagoshima",
+    "name_ja": "種子島",
+    "name_en": "Tanegashima",
+    "lat": 30.5331,
+    "lon": 130.9586,
+    "area_ha": 2382,
+    "cane_t": 176576,
+    "sugar_t": 17744,
+    "munis": [
+     "46213",
+     "46501",
+     "46502"
+    ]
+   },
+   {
+    "id": "amami",
+    "pref": "kagoshima",
+    "name_ja": "奄美大島",
+    "name_en": "Amami-Oshima",
+    "lat": 28.3777,
+    "lon": 129.4938,
+    "area_ha": 537,
+    "cane_t": 31151,
+    "sugar_t": 3893,
+    "munis": [
+     "46222",
+     "46523",
+     "46524",
+     "46525",
+     "46527"
+    ]
+   },
+   {
+    "id": "kikai",
+    "pref": "kagoshima",
+    "name_ja": "喜界島",
+    "name_en": "Kikaijima",
+    "lat": 28.3229,
+    "lon": 129.9736,
+    "area_ha": 1305,
+    "cane_t": 79261,
+    "sugar_t": 10202,
+    "munis": [
+     "46529"
+    ]
+   },
+   {
+    "id": "tokunoshima",
+    "pref": "kagoshima",
+    "name_ja": "徳之島",
+    "name_en": "Tokunoshima",
+    "lat": 27.7892,
+    "lon": 128.9748,
+    "area_ha": 3198,
+    "cane_t": 196275,
+    "sugar_t": 25344,
+    "munis": [
+     "46530",
+     "46531",
+     "46532"
+    ]
+   },
+   {
+    "id": "okinoerabu",
+    "pref": "kagoshima",
+    "name_ja": "沖永良部島",
+    "name_en": "Okinoerabu-jima",
+    "lat": 27.3653,
+    "lon": 128.6147,
+    "area_ha": 1795,
+    "cane_t": 104601,
+    "sugar_t": 12789,
+    "munis": [
+     "46533",
+     "46534"
+    ]
+   },
+   {
+    "id": "yoron",
+    "pref": "kagoshima",
+    "name_ja": "与論島",
+    "name_en": "Yoron-jima",
+    "lat": 27.0444,
+    "lon": 128.433,
+    "area_ha": 407,
+    "cane_t": 23523,
+    "sugar_t": 2734,
+    "munis": [
+     "46535"
+    ]
+   }
+  ]
+ },
+ "factories": [
+  {
+   "crop": "beet",
+   "type": "centrifugal",
+   "name_ja": "芽室製糖所",
+   "name_en": "Memuro Beet Sugar Factory",
+   "company_ja": "株式会社ニッテン（旧 日本甜菜製糖）",
+   "company_en": "Nitten Co., Ltd. (formerly Nippon Beet Sugar)",
+   "place_ja": "北海道河西郡芽室町",
+   "place_en": "Memuro, Hokkaido",
+   "lat": 42.922051,
+   "lon": 143.078006,
+   "src_ja": "株式会社ニッテン 事業所一覧",
+   "src_en": "Nitten office list",
+   "approx": false
+  },
+  {
+   "crop": "beet",
+   "type": "centrifugal",
+   "name_ja": "美幌製糖所",
+   "name_en": "Bihoro Beet Sugar Factory",
+   "company_ja": "株式会社ニッテン（旧 日本甜菜製糖）",
+   "company_en": "Nitten Co., Ltd. (formerly Nippon Beet Sugar)",
+   "place_ja": "北海道網走郡美幌町",
+   "place_en": "Bihoro, Hokkaido",
+   "lat": 43.838738,
+   "lon": 144.107202,
+   "src_ja": "株式会社ニッテン 事業所一覧",
+   "src_en": "Nitten office list",
+   "approx": false
+  },
+  {
+   "crop": "beet",
+   "type": "centrifugal",
+   "name_ja": "士別製糖所",
+   "name_en": "Shibetsu Beet Sugar Factory",
+   "company_ja": "株式会社ニッテン（旧 日本甜菜製糖）",
+   "company_en": "Nitten Co., Ltd. (formerly Nippon Beet Sugar)",
+   "place_ja": "北海道士別市",
+   "place_en": "Shibetsu, Hokkaido",
+   "lat": 44.183705,
+   "lon": 142.384646,
+   "src_ja": "株式会社ニッテン 事業所一覧",
+   "src_en": "Nitten office list",
+   "approx": false
+  },
+  {
+   "crop": "beet",
+   "type": "centrifugal",
+   "name_ja": "中斜里製糖工場",
+   "name_en": "Nakashari Sugar Factory",
+   "company_ja": "ホクレン農業協同組合連合会",
+   "company_en": "Hokuren Federation of Agricultural Cooperatives",
+   "place_ja": "北海道斜里郡斜里町",
+   "place_en": "Shari, Hokkaido",
+   "lat": 43.869541,
+   "lon": 144.659561,
+   "src_ja": "北海道農政部「北海道の畑作をめぐる情勢」",
+   "src_en": "Hokkaido Government, Upland farming in Hokkaido",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "beet",
+   "type": "centrifugal",
+   "name_ja": "清水製糖工場",
+   "name_en": "Shimizu Sugar Factory",
+   "company_ja": "ホクレン農業協同組合連合会",
+   "company_en": "Hokuren Federation of Agricultural Cooperatives",
+   "place_ja": "北海道上川郡清水町",
+   "place_en": "Shimizu, Hokkaido",
+   "lat": 43.011436,
+   "lon": 142.884537,
+   "src_ja": "北海道農政部「北海道の畑作をめぐる情勢」",
+   "src_en": "Hokkaido Government, Upland farming in Hokkaido",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "beet",
+   "type": "centrifugal",
+   "name_ja": "北見製糖所",
+   "name_en": "Kitami Sugar Factory",
+   "company_ja": "北海道糖業株式会社",
+   "company_en": "Hokkaido Sugar Co., Ltd.",
+   "place_ja": "北海道北見市",
+   "place_en": "Kitami, Hokkaido",
+   "lat": 43.802906,
+   "lon": 143.894684,
+   "src_ja": "北海道農政部「北海道の畑作をめぐる情勢」",
+   "src_en": "Hokkaido Government, Upland farming in Hokkaido",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "beet",
+   "type": "centrifugal",
+   "name_ja": "道南製糖所",
+   "name_en": "Donan Sugar Factory",
+   "company_ja": "北海道糖業株式会社",
+   "company_en": "Hokkaido Sugar Co., Ltd.",
+   "place_ja": "北海道伊達市",
+   "place_en": "Date, Hokkaido",
+   "lat": 42.471943,
+   "lon": 140.864716,
+   "src_ja": "北海道農政部「北海道の畑作をめぐる情勢」",
+   "src_en": "Hokkaido Government, Upland farming in Hokkaido",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "ゆがふ製糖 本社・工場",
+   "name_en": "Yugafu Seito, Okinawa Island",
+   "company_ja": "ゆがふ製糖株式会社",
+   "company_en": "Yugafu Seito",
+   "place_ja": "沖縄島（うるま市）",
+   "place_en": "Okinawa Island",
+   "lat": 26.34411,
+   "lon": 127.86083,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": false
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "JAおきなわ伊是名支店製糖工場",
+   "name_en": "JA Okinawa, Izena-jima",
+   "company_ja": "沖縄県農業協同組合",
+   "company_en": "JA Okinawa",
+   "place_ja": "伊是名島（伊是名村）",
+   "place_en": "Izena-jima",
+   "lat": 26.92514,
+   "lon": 127.94614,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "久米島製糖 工場",
+   "name_en": "Kumejima Seito, Kume-jima",
+   "company_ja": "久米島製糖株式会社",
+   "company_en": "Kumejima Seito",
+   "place_ja": "久米島（久米島町）",
+   "place_en": "Kume-jima",
+   "lat": 26.33162,
+   "lon": 126.77216,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "大東糖業 工場",
+   "name_en": "Daito Togyo, Minami-Daito-jima",
+   "company_ja": "大東糖業株式会社",
+   "company_en": "Daito Togyo",
+   "place_ja": "南大東島（南大東村）",
+   "place_en": "Minami-Daito-jima",
+   "lat": 25.8363,
+   "lon": 131.23509,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "北大東製糖 工場",
+   "name_en": "Kita-Daito Seito, Kita-Daito-jima",
+   "company_ja": "北大東製糖株式会社",
+   "company_en": "Kita-Daito Seito",
+   "place_ja": "北大東島（北大東村）",
+   "place_en": "Kita-Daito-jima",
+   "lat": 25.94754,
+   "lon": 131.30238,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "沖縄製糖 工場（宮古）",
+   "name_en": "Okinawa Seito, Miyako-jima",
+   "company_ja": "沖縄製糖株式会社",
+   "company_en": "Okinawa Seito",
+   "place_ja": "宮古島（宮古島市）",
+   "place_en": "Miyako-jima",
+   "lat": 24.75273,
+   "lon": 125.28697,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": false
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "宮古製糖 城辺工場（本社）",
+   "name_en": "Miyako Seito (Gusukube), Miyako-jima",
+   "company_ja": "宮古製糖株式会社",
+   "company_en": "Miyako Seito",
+   "place_ja": "宮古島（宮古島市）",
+   "place_en": "Miyako-jima",
+   "lat": 24.73231,
+   "lon": 125.35058,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": false
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "宮古製糖 伊良部工場",
+   "name_en": "Miyako Seito, Irabu-jima",
+   "company_ja": "宮古製糖株式会社",
+   "company_en": "Miyako Seito",
+   "place_ja": "伊良部島（宮古島市）",
+   "place_en": "Irabu-jima",
+   "lat": 24.83527,
+   "lon": 125.18604,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "石垣島製糖 本社・工場",
+   "name_en": "Ishigakijima Seito, Ishigaki-jima",
+   "company_ja": "石垣島製糖株式会社",
+   "company_en": "Ishigakijima Seito",
+   "place_ja": "石垣島（石垣市）",
+   "place_en": "Ishigaki-jima",
+   "lat": 24.38971,
+   "lon": 124.15678,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": false
+  },
+  {
+   "crop": "cane",
+   "type": "noncentrifugal",
+   "name_ja": "JAおきなわ伊平屋支店製糖工場",
+   "name_en": "JA Okinawa, Iheya-jima",
+   "company_ja": "沖縄県農業協同組合",
+   "company_en": "JA Okinawa",
+   "place_ja": "伊平屋島（伊平屋村）",
+   "place_en": "Iheya-jima",
+   "lat": 27.03622,
+   "lon": 127.9568,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "noncentrifugal",
+   "name_ja": "JAおきなわ伊江支店製糖工場",
+   "name_en": "JA Okinawa, Ie-jima",
+   "company_ja": "沖縄県農業協同組合",
+   "company_en": "JA Okinawa",
+   "place_ja": "伊江島（伊江村）",
+   "place_en": "Ie-jima",
+   "lat": 26.71919,
+   "lon": 127.82191,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "noncentrifugal",
+   "name_ja": "JAおきなわ粟国支店製糖工場",
+   "name_en": "JA Okinawa, Aguni-jima",
+   "company_ja": "沖縄県農業協同組合",
+   "company_en": "JA Okinawa",
+   "place_ja": "粟国島（粟国村）",
+   "place_en": "Aguni-jima",
+   "lat": 26.58986,
+   "lon": 127.23139,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "noncentrifugal",
+   "name_ja": "宮古製糖 多良間工場",
+   "name_en": "Miyako Seito, Tarama-jima",
+   "company_ja": "宮古製糖株式会社",
+   "company_en": "Miyako Seito",
+   "place_ja": "多良間島（多良間村）",
+   "place_en": "Tarama-jima",
+   "lat": 24.65699,
+   "lon": 124.714,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "noncentrifugal",
+   "name_ja": "JA小浜製糖工場",
+   "name_en": "JA Okinawa, Kohama-jima",
+   "company_ja": "沖縄県農業協同組合",
+   "company_en": "JA Okinawa",
+   "place_ja": "小浜島（竹富町）",
+   "place_en": "Kohama-jima",
+   "lat": 24.33908,
+   "lon": 123.98016,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "noncentrifugal",
+   "name_ja": "西表製糖 工場",
+   "name_en": "Iriomote Seito, Iriomote-jima",
+   "company_ja": "西表製糖株式会社",
+   "company_en": "Iriomote Seito",
+   "place_ja": "西表島（竹富町）",
+   "place_en": "Iriomote-jima",
+   "lat": 24.28278,
+   "lon": 123.84576,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "noncentrifugal",
+   "name_ja": "波照間製糖 工場",
+   "name_en": "Hateruma Seito, Hateruma-jima",
+   "company_ja": "波照間製糖株式会社",
+   "company_en": "Hateruma Seito",
+   "place_ja": "波照間島（竹富町）",
+   "place_en": "Hateruma-jima",
+   "lat": 24.05859,
+   "lon": 123.78243,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "noncentrifugal",
+   "name_ja": "JAおきなわ与那国支店製糖工場",
+   "name_en": "JA Okinawa, Yonaguni-jima",
+   "company_ja": "沖縄県農業協同組合",
+   "company_en": "JA Okinawa",
+   "place_ja": "与那国島（与那国町）",
+   "place_en": "Yonaguni-jima",
+   "lat": 24.45593,
+   "lon": 122.98768,
+   "src_ja": "沖縄県 製糖工場一覧、生産実績",
+   "src_en": "Okinawa Prefecture factory list and production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "新光糖業 中種子工場",
+   "name_en": "Shinko Togyo, Tanegashima",
+   "company_ja": "新光糖業株式会社",
+   "company_en": "Shinko Togyo",
+   "place_ja": "種子島（中種子町）",
+   "place_en": "Tanegashima",
+   "lat": 30.53306,
+   "lon": 130.95862,
+   "src_ja": "鹿児島県 生産実績",
+   "src_en": "Kagoshima Prefecture production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "富国製糖 奄美工場",
+   "name_en": "Fukoku Seito, Amami-Oshima",
+   "company_ja": "富国製糖株式会社",
+   "company_en": "Fukoku Seito",
+   "place_ja": "奄美大島（奄美市）",
+   "place_en": "Amami-Oshima",
+   "lat": 28.37767,
+   "lon": 129.49383,
+   "src_ja": "鹿児島県 生産実績",
+   "src_en": "Kagoshima Prefecture production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "生和糖業 喜界工場",
+   "name_en": "Seiwa Togyo, Kikaijima",
+   "company_ja": "生和糖業株式会社",
+   "company_en": "Seiwa Togyo",
+   "place_ja": "喜界島（喜界町）",
+   "place_en": "Kikaijima",
+   "lat": 28.31694,
+   "lon": 129.94,
+   "src_ja": "鹿児島県 生産実績",
+   "src_en": "Kagoshima Prefecture production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "南西糖業 伊仙工場",
+   "name_en": "Nansei Togyo (Isen), Tokunoshima",
+   "company_ja": "南西糖業株式会社",
+   "company_en": "Nansei Togyo",
+   "place_ja": "徳之島（伊仙町）",
+   "place_en": "Tokunoshima",
+   "lat": 27.67316,
+   "lon": 128.93771,
+   "src_ja": "鹿児島県 生産実績",
+   "src_en": "Kagoshima Prefecture production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "南西糖業 徳和瀬工場",
+   "name_en": "Nansei Togyo (Tokuwase), Tokunoshima",
+   "company_ja": "南西糖業株式会社",
+   "company_en": "Nansei Togyo",
+   "place_ja": "徳之島（徳之島町）",
+   "place_en": "Tokunoshima",
+   "lat": 27.75454,
+   "lon": 129.02435,
+   "src_ja": "鹿児島県 生産実績",
+   "src_en": "Kagoshima Prefecture production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "南栄糖業 和泊工場",
+   "name_en": "Nan'ei Togyo, Okinoerabu-jima",
+   "company_ja": "南栄糖業株式会社",
+   "company_en": "Nan'ei Togyo",
+   "place_ja": "沖永良部島（和泊町）",
+   "place_en": "Okinoerabu-jima",
+   "lat": 27.37093,
+   "lon": 128.63249,
+   "src_ja": "鹿児島県 生産実績",
+   "src_en": "Kagoshima Prefecture production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  },
+  {
+   "crop": "cane",
+   "type": "centrifugal",
+   "name_ja": "与論島製糖 与論工場",
+   "name_en": "Yoronjima Seito, Yoron-jima",
+   "company_ja": "与論島製糖株式会社",
+   "company_en": "Yoronjima Seito",
+   "place_ja": "与論島（与論町）",
+   "place_en": "Yoron-jima",
+   "lat": 27.04495,
+   "lon": 128.42163,
+   "src_ja": "鹿児島県 生産実績",
+   "src_en": "Kagoshima Prefecture production report",
+   "approx": true,
+   "note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+   "note_en": "Position is approximate (town or district point), not the exact site."
+  }
+ ],
+ "anchors": {
+  "north": {
+   "name_ja": "芽室製糖所（十勝）",
+   "name_en": "Memuro sugar factory, Tokachi",
+   "lat": 42.922,
+   "lon": 143.078
+  },
+  "south": {
+   "name_ja": "宮古島",
+   "name_en": "Miyako-jima",
+   "lat": 24.7905,
+   "lon": 125.3034
+  }
+ },
+ "season": {
+  "beet": {
+   "harvest": [
+    10,
+    11
+   ],
+   "processing": [
+    12,
+    1,
+    2,
+    3
+   ]
+  },
+  "cane": {
+   "harvest": [
+    12,
+    1,
+    2,
+    3,
+    4
+   ],
+   "processing": [
+    5
+   ]
+  },
+  "beet_src_ja": "収穫は10〜11月（ALIC、農林水産省）。令和7年産の工場の截断（原料の処理）は10月4日〜3月10日（北海道農政部）",
+  "beet_src_en": "harvest in October–November (ALIC, MAFF); factories sliced the 2025 crop from 4 October to 10 March (Hokkaido Government)"
+ },
+ "supply_key": "2025",
+ "sources": [
+  {
+   "text_ja": "農林水産省「令和8砂糖年度における砂糖及び異性化糖の需給見通し（第1回）」（令和8年9月）参考資料1 需給総括表（PDF p.6）、7 粗糖の輸入実績（PDF p.12）。PDFから書き起こし。",
+   "text_en": "MAFF, Outlook for supply and demand of sugar and isomerized sugar, sugar year 2026, 1st (September 2026): reference table 1 (PDF p.6) and table 7, raw sugar imports (PDF p.12). Transcribed from PDF.",
+   "url": "https://www.maff.go.jp/j/seisan/tokusan/kansho/attach/pdf/satou-42.pdf"
+  },
+  {
+   "text_ja": "北海道農政部「令和7年産 てん菜生産実績」表1（総合）振興局別（p.1）。PDFから書き起こし。",
+   "text_en": "Hokkaido Government, Sugar beet production results, 2025 crop, table 1 by subprefecture (p.1). Transcribed from PDF.",
+   "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf"
+  },
+  {
+   "text_ja": "北海道農政部「令和7年（2025年）産てん菜糖の生産実績」（p.1）。PDFから書き起こし。",
+   "text_en": "Hokkaido Government, Beet sugar production results, 2025 crop (p.1). Transcribed from PDF.",
+   "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/5/3/7/6/5/_/R7%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%B3%96%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf"
+  },
+  {
+   "text_ja": "農畜産業振興機構（ALIC）統計資料 1-(2) 北海道のてん菜等の生産実績（p.1）。",
+   "text_en": "Agriculture & Livestock Industries Corporation (ALIC), statistics 1-(2): sugar beet production in Hokkaido (p.1).",
+   "url": "https://sugar.alic.go.jp/japan/data/jd1-2.pdf"
+  },
+  {
+   "text_ja": "農林水産省 作物統計「令和7年産 工芸農作物の収穫量」てんさい（e-Stat）。",
+   "text_en": "MAFF crop statistics, harvest of industrial crops, 2025 crop: sugar beet (via e-Stat).",
+   "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040440441&fileKind=0"
+  },
+  {
+   "text_ja": "北海道農政部「北海道の畑作をめぐる情勢」（令和8年11月）てん菜糖工場分布図（3社7工場）（分割2、PDF p.6）。",
+   "text_en": "Hokkaido Government, Upland farming in Hokkaido (November 2026): map of beet sugar factories, 3 companies and 7 factories (part 2, PDF p.6).",
+   "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/0/6/7/4/_/%E3%80%90%E5%88%86%E5%89%B22%E3%80%91%E5%8C%97%E6%B5%B7%E9%81%93%E3%81%AE%E7%95%91%E4%BD%9C%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%83%85%E5%8B%A2R8.11.pdf"
+  },
+  {
+   "text_ja": "株式会社ニッテン 事業所一覧（芽室・美幌・士別製糖所の所在地）。",
+   "text_en": "Nitten Co., Ltd., office list (Memuro, Bihoro and Shibetsu factories).",
+   "url": "https://www.nitten.co.jp/company/office/"
+  },
+  {
+   "text_ja": "沖縄県農林水産部「令和7/8年期 さとうきび及び甘しゃ糖生産実績」（令和8年8月）表Ⅰ-1、4、5、7（印刷頁 p.1–2、9–10、12–17、21–23）。PDFから書き起こし。",
+   "text_en": "Okinawa Prefecture, Sugarcane and cane sugar production results, 2025/26 season (August 2026): tables I-1, 4, 5 and 7 (printed pp.1–2, 9–10, 12–17, 21–23). Transcribed from PDF.",
+   "url": "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+  },
+  {
+   "text_ja": "沖縄県 分蜜糖工場・含蜜糖工場の一覧（工場の所在地）。",
+   "text_en": "Okinawa Prefecture, lists of centrifugal and non-centrifugal sugar factories (addresses).",
+   "url": "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/bunmitu.pdf"
+  },
+  {
+   "text_ja": "鹿児島県農政部「令和7年産 さとうきび及び甘しゃ糖生産実績（令和7/8年期）」（令和8年9月）表Ⅱ-1 島別生産実績（印刷頁 p.11）、Ⅱ-9 分みつ糖工場操業実績（p.19）。PDFから書き起こし。",
+   "text_en": "Kagoshima Prefecture, Sugarcane and cane sugar production results, 2025 crop (September 2026): table II-1 by island (printed p.11) and II-9 factory operations (p.19). Transcribed from PDF.",
+   "url": "https://www.pref.kagoshima.jp/ag06/sangyo-rodo/nogyo/nosanbutu/satokibi/documents/41531_20261007151914-1.pdf"
+  },
+  {
+   "text_ja": "FAO. FAOSTAT「Crops and livestock products」（最終更新2025年）、Sugar beet・Sugar cane の生産量、2024年。2026年11月8日取得。CC BY 4.0。",
+   "text_en": "FAO. FAOSTAT, Crops and livestock products (last updated 2025): production of sugar beet and sugar cane, 2024. Accessed 8 November 2026. CC BY 4.0.",
+   "url": "https://www.fao.org/faostat/en/#data/QCL"
+  },
+  {
+   "text_ja": "Natural Earth 1:50m Admin 0 Countries、1:10m Admin 1（v5.1.1、パブリックドメイン）。",
+   "text_en": "Natural Earth 1:50m Admin 0 Countries and 1:10m Admin 1 (v5.1.1, public domain).",
+   "url": "https://www.naturalearthdata.com/"
+  },
+  {
+   "text_ja": "国土数値情報 行政区域データ（N03、2025年1月1日時点、国土交通省）北海道・鹿児島県・沖縄県。",
+   "text_en": "National Land Numerical Information, Administrative Areas (N03, as of 1 January 2025, MLIT): Hokkaido, Kagoshima and Okinawa.",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2025.html"
+  },
+  {
+   "text_ja": "工場・島の位置の一部は国土地理院の住所検索で求めた。",
+   "text_en": "Some factory and island positions were geocoded with the GSI address search.",
+   "url": "https://msearch.gsi.go.jp/address-search/AddressSearch"
+  }
+ ],
+ "notes_en": [
+  "World production: FAOSTAT, calendar year 2024.",
+  "Hokkaido sugar beet area, harvest and beet sugar output are for the 2025 crop (harvested autumn 2025, processed October 2025 to May 2026). Sugar output is white sugar plus raw sugar as produced, not white-sugar equivalent.",
+  "Sugarcane: Okinawa 2025/26 season and Kagoshima 2025 crop (both grown in 2025, harvested and crushed December 2025 to May 2026). Sugar for Miyako-jima and Irabu-jima is counted by factory.",
+  "The spoon (supply and self-sufficiency) uses the sugar year, October to September. Sugar year 2025/26 is an estimate; the latest actual is sugar year 2024/25. Centrifugal sugar on a refined basis, non-centrifugal sugar on a product basis.",
+  "Raw sugar import sources: sugar year 2024/25 customs data (Ministry of Finance trade statistics, as tabulated by MAFF).",
+  "Figures from national and prefectural reports were transcribed from PDF files. Table names and pages are recorded in data/transcribed/ and data/supply.json.",
+  "Some factory positions (Hokuren, Hokkaido Sugar and the Kagoshima factories) are town or district points, not exact sites. Hokkaido has 7 beet sugar factories run by 3 companies; Hokkaido Sugar's Hombetsu plant has not made sugar since sugar year 2023 and is not shown."
+ ],
+ "notes_ja": [
+  "世界の生産量はFAOSTATの2024年（暦年）の値。",
+  "北海道のてん菜の作付面積・収穫量・てん菜糖の産糖量は令和7年産（2025年秋収穫、工場の製造は2025年10月〜2026年5月）。産糖量は白糖と原料糖の合計で、白糖換算ではありません。",
+  "さとうきびは、沖縄県が令和7/8年期、鹿児島県が令和7年産（どちらも2025年に育ち2025年12月〜2026年5月に収穫・製糖）。宮古島と伊良部島の産糖量は工場別の値です。",
+  "スプーンの数値（需給・自給率）は砂糖年度（10月〜翌年9月）。令和7砂糖年度（2025年10月〜2026年9月）は見込み値で、実績の最新は令和6砂糖年度。分蜜糖は精製糖ベース、含蜜糖は製品ベース。",
+  "粗糖の輸入先は令和6砂糖年度の通関実績（財務省「日本貿易統計」、農林水産省の資料による）。",
+  "国・県の資料の数値はPDFから書き起こしたものです。表の名前とページは data/transcribed/ と data/supply.json に記録しています。",
+  "工場の位置の一部（ホクレン、北海道糖業、鹿児島県の工場）は市町村や地区の代表点で、正確な位置ではありません。北海道のてん菜糖工場は3社7工場（北海道糖業の本別製糖所は令和5砂糖年度から製造をしていないため含めない）。"
+ ]
+}

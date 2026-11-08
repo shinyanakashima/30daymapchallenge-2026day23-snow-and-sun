@@ -1,0 +1,452 @@
+{
+ "hokkaido_totals": {
+  "year_label_ja": "令和7年産（2025年産）",
+  "year_label_en": "2025 crop year (beets harvested autumn 2025; sugar from that crop processed Oct 2025 - May 2026)",
+  "area_ha": 47965.49,
+  "harvest_t": 3194632.98,
+  "beet_sugar_t": 490907.01,
+  "beet_sugar_of_which_raw_sugar_t": 101306.31,
+  "sugar_basis": "産糖量 / 砂糖生産量 (actual sugar output of the 2025 crop, white sugar + 原料糖(raw sugar) combined; excludes beet sugar-equivalent of juice for bioethanol per ALIC note). Not a 白糖換算 figure. For comparison ALIC/MAFF 需給総括表 gives てん菜糖 2025 砂糖年度 (Oct 2025-Sep 2026) outlook = 490千t (白糖390 + 原料糖101), 精製糖ベース.",
+  "alt_values": {
+   "maff_area_ha": 48000,
+   "maff_harvest_t": 3195000,
+   "maff_note": "MAFF 作物統計 (rounded official statistics) for 令和7年産; Hokkaido govt / ALIC figures above are the industry survey (北海道てん菜糖業各社調査) with 2 decimals."
+  },
+  "sources": [
+   {
+    "publisher": "農畜産業振興機構 ALIC",
+    "title": "統計資料 1-(2) 北海道のてん菜等の生産実績 (updated 2026-06-17)",
+    "url": "https://sugar.alic.go.jp/japan/data/jd1-2.pdf",
+    "table": "(2) 北海道のてん菜等の生産実績, row 年産=7 (作付面積 47,965 ha; 生産量 3,194,633 t; 産糖量 490,907 t)",
+    "page": 1,
+    "accessed": "2026-11-08"
+   },
+   {
+    "publisher": "北海道農政部生産振興局農産振興課",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別, row 合計",
+    "page": 1,
+    "accessed": "2026-11-08"
+   },
+   {
+    "publisher": "北海道農政部生産振興局農産振興課",
+    "title": "令和７年（2025年）産てん菜糖の生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/5/3/7/6/5/_/R7%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%B3%96%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "てん菜糖の生産実績, row 合計 (原料処理量 3,194,632.98 t; 砂糖生産量 490,907.01 t; うち原料糖 101,306.31 t)",
+    "page": 1,
+    "accessed": "2026-11-08"
+   },
+   {
+    "publisher": "農林水産省 MAFF (via e-Stat)",
+    "title": "作物統計 令和７年産工芸農作物の収穫量 (3) てんさい（北海道） 確報 2026-03-31",
+    "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040440441&fileKind=0",
+    "table": "6 工芸農作物 (3) てんさい（北海道）: 作付面積 48,000 ha; 収穫量 3,195,000 t",
+    "page": "Excel sheet f002-07-035 (single sheet)",
+    "accessed": "2026-11-08"
+   },
+   {
+    "publisher": "農畜産業振興機構 ALIC (source: MAFF 令和7砂糖年度需給見通し第4回)",
+    "title": "統計資料 1-(1) 砂糖及び異性化糖の需給総括表",
+    "url": "https://sugar.alic.go.jp/japan/data/jd1-1.pdf",
+    "table": "(1) 需給総括表, row 2025 7（見通し）: てん菜糖 490千t (白糖390, 原料糖101)",
+    "page": 1,
+    "accessed": "2026-11-08"
+   }
+  ]
+ },
+ "regions": [
+  {
+   "name_ja": "空知総合振興局",
+   "name_en": "Sorachi",
+   "area_ha": 569.13,
+   "harvest_t": 40049.34,
+   "year": "令和7年産 (2025)",
+   "source": {
+    "publisher": "北海道農政部生産振興局農産振興課 (Hokkaido Govt)",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別",
+    "page": 1,
+    "accessed": "2026-11-08"
+   }
+  },
+  {
+   "name_ja": "石狩総合振興局",
+   "name_en": "Ishikari",
+   "area_ha": 943.88,
+   "harvest_t": 60223.31,
+   "year": "令和7年産 (2025)",
+   "source": {
+    "publisher": "北海道農政部生産振興局農産振興課 (Hokkaido Govt)",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別",
+    "page": 1,
+    "accessed": "2026-11-08"
+   }
+  },
+  {
+   "name_ja": "後志総合振興局",
+   "name_en": "Shiribeshi",
+   "area_ha": 1071.19,
+   "harvest_t": 62427.34,
+   "year": "令和7年産 (2025)",
+   "source": {
+    "publisher": "北海道農政部生産振興局農産振興課 (Hokkaido Govt)",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別",
+    "page": 1,
+    "accessed": "2026-11-08"
+   }
+  },
+  {
+   "name_ja": "胆振総合振興局",
+   "name_en": "Iburi",
+   "area_ha": 966.44,
+   "harvest_t": 52386.31,
+   "year": "令和7年産 (2025)",
+   "source": {
+    "publisher": "北海道農政部生産振興局農産振興課 (Hokkaido Govt)",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別",
+    "page": 1,
+    "accessed": "2026-11-08"
+   }
+  },
+  {
+   "name_ja": "日高振興局",
+   "name_en": "Hidaka",
+   "area_ha": 17.12,
+   "harvest_t": 1083.18,
+   "year": "令和7年産 (2025)",
+   "source": {
+    "publisher": "北海道農政部生産振興局農産振興課 (Hokkaido Govt)",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別",
+    "page": 1,
+    "accessed": "2026-11-08"
+   }
+  },
+  {
+   "name_ja": "渡島総合振興局",
+   "name_en": "Oshima",
+   "area_ha": 76.01,
+   "harvest_t": 2937.05,
+   "year": "令和7年産 (2025)",
+   "source": {
+    "publisher": "北海道農政部生産振興局農産振興課 (Hokkaido Govt)",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別",
+    "page": 1,
+    "accessed": "2026-11-08"
+   }
+  },
+  {
+   "name_ja": "檜山振興局",
+   "name_en": "Hiyama",
+   "area_ha": 205.47,
+   "harvest_t": 7967.63,
+   "year": "令和7年産 (2025)",
+   "source": {
+    "publisher": "北海道農政部生産振興局農産振興課 (Hokkaido Govt)",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別",
+    "page": 1,
+    "accessed": "2026-11-08"
+   }
+  },
+  {
+   "name_ja": "上川総合振興局",
+   "name_en": "Kamikawa",
+   "area_ha": 2882.36,
+   "harvest_t": 187552.24,
+   "year": "令和7年産 (2025)",
+   "source": {
+    "publisher": "北海道農政部生産振興局農産振興課 (Hokkaido Govt)",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別",
+    "page": 1,
+    "accessed": "2026-11-08"
+   }
+  },
+  {
+   "name_ja": "留萌振興局",
+   "name_en": "Rumoi",
+   "area_ha": 120.05,
+   "harvest_t": 6609.27,
+   "year": "令和7年産 (2025)",
+   "source": {
+    "publisher": "北海道農政部生産振興局農産振興課 (Hokkaido Govt)",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別",
+    "page": 1,
+    "accessed": "2026-11-08"
+   }
+  },
+  {
+   "name_ja": "宗谷振興局",
+   "name_en": "Soya",
+   "area_ha": null,
+   "harvest_t": null,
+   "year": "令和7年産 (2025)",
+   "source": {
+    "publisher": "北海道農政部生産振興局農産振興課 (Hokkaido Govt)",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別",
+    "page": 1,
+    "accessed": "2026-11-08"
+   },
+   "note": "Shown as '－' (no beet planted) in source"
+  },
+  {
+   "name_ja": "オホーツク総合振興局",
+   "name_en": "Okhotsk",
+   "area_ha": 19462.05,
+   "harvest_t": 1306821.98,
+   "year": "令和7年産 (2025)",
+   "source": {
+    "publisher": "北海道農政部生産振興局農産振興課 (Hokkaido Govt)",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別",
+    "page": 1,
+    "accessed": "2026-11-08"
+   }
+  },
+  {
+   "name_ja": "十勝総合振興局",
+   "name_en": "Tokachi",
+   "area_ha": 21317.57,
+   "harvest_t": 1444673.42,
+   "year": "令和7年産 (2025)",
+   "source": {
+    "publisher": "北海道農政部生産振興局農産振興課 (Hokkaido Govt)",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別",
+    "page": 1,
+    "accessed": "2026-11-08"
+   }
+  },
+  {
+   "name_ja": "釧路総合振興局",
+   "name_en": "Kushiro",
+   "area_ha": 252.2,
+   "harvest_t": 16750.4,
+   "year": "令和7年産 (2025)",
+   "source": {
+    "publisher": "北海道農政部生産振興局農産振興課 (Hokkaido Govt)",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別",
+    "page": 1,
+    "accessed": "2026-11-08"
+   }
+  },
+  {
+   "name_ja": "根室振興局",
+   "name_en": "Nemuro",
+   "area_ha": 82.02,
+   "harvest_t": 5151.51,
+   "year": "令和7年産 (2025)",
+   "source": {
+    "publisher": "北海道農政部生産振興局農産振興課 (Hokkaido Govt)",
+    "title": "令和７年産 てん菜生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "1 （総合）振興局別",
+    "page": 1,
+    "accessed": "2026-11-08"
+   }
+  }
+ ],
+ "factories": [
+  {
+   "company_ja": "株式会社ニッテン（旧 日本甜菜製糖株式会社）",
+   "company_en": "Nitten Co., Ltd. (formerly Nippon Beet Sugar Mfg.)",
+   "name_ja": "芽室製糖所",
+   "name_en": "Memuro Beet Sugar Factory",
+   "municipality_ja": "河西郡芽室町（東芽室基線26番地）",
+   "lat": 42.922051,
+   "lon": 143.078006,
+   "coord_precision": "address-level: company's own Google Maps pin on official office page (GSI geocode of address gives 42.921638,143.077408)",
+   "status": "operating (processed 令和7年産 beets, 2025/26 campaign; listed in Hokkaido govt 3社7工場 map, Nov 2026)",
+   "source_url": "https://www.nitten.co.jp/company/office/",
+   "source_url_en": "https://www.nitten.co.jp/en/company/locations/",
+   "r7_sugar_t": 171826.18
+  },
+  {
+   "company_ja": "株式会社ニッテン（旧 日本甜菜製糖株式会社）",
+   "company_en": "Nitten Co., Ltd. (formerly Nippon Beet Sugar Mfg.)",
+   "name_ja": "美幌製糖所",
+   "name_en": "Bihoro Beet Sugar Factory",
+   "municipality_ja": "網走郡美幌町（字鳥里91番地）",
+   "lat": 43.838738,
+   "lon": 144.107202,
+   "coord_precision": "address-level: company's own Google Maps pin (GSI geocode 43.839039,144.109131)",
+   "status": "operating (processed 令和7年産 beets, 2025/26 campaign; listed in Hokkaido govt 3社7工場 map, Nov 2026)",
+   "source_url": "https://www.nitten.co.jp/company/office/",
+   "source_url_en": "https://www.nitten.co.jp/en/company/locations/",
+   "r7_sugar_t": 49300.0
+  },
+  {
+   "company_ja": "株式会社ニッテン（旧 日本甜菜製糖株式会社）",
+   "company_en": "Nitten Co., Ltd. (formerly Nippon Beet Sugar Mfg.)",
+   "name_ja": "士別製糖所",
+   "name_en": "Shibetsu Beet Sugar Factory",
+   "municipality_ja": "士別市（西3条北4丁目382番地）",
+   "lat": 44.183705,
+   "lon": 142.384646,
+   "coord_precision": "address-level: company's own Google Maps pin (GSI geocode 44.182812,142.384293)",
+   "status": "operating (processed 令和7年産 beets, 2025/26 campaign; listed in Hokkaido govt 3社7工場 map, Nov 2026)",
+   "source_url": "https://www.nitten.co.jp/company/office/",
+   "source_url_en": "https://www.nitten.co.jp/en/company/locations/",
+   "r7_sugar_t": 33051.7
+  },
+  {
+   "company_ja": "ホクレン農業協同組合連合会",
+   "company_en": "Hokuren Federation of Agricultural Cooperatives",
+   "name_ja": "中斜里製糖工場",
+   "name_en": "Nakashari Sugar Factory (descriptive EN, not verified on official EN page)",
+   "municipality_ja": "斜里郡斜里町",
+   "lat": 43.869541,
+   "lon": 144.659561,
+   "coord_precision": "locality-level approx: GSI geocode of 北海道斜里町中斜里 (locality inferred from factory name; street address NOT verified - hokuren.or.jp blocked by bot protection)",
+   "status": "operating (processed 令和7年産 beets, 2025/26 campaign; listed in Hokkaido govt 3社7工場 map, Nov 2026)",
+   "source_url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/0/6/7/4/_/%E3%80%90%E5%88%86%E5%89%B22%E3%80%91%E5%8C%97%E6%B5%B7%E9%81%93%E3%81%AE%E7%95%91%E4%BD%9C%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%83%85%E5%8B%A2R8.11.pdf",
+   "r7_sugar_t": 126010.01
+  },
+  {
+   "company_ja": "ホクレン農業協同組合連合会",
+   "company_en": "Hokuren Federation of Agricultural Cooperatives",
+   "name_ja": "清水製糖工場",
+   "name_en": "Shimizu Sugar Factory (descriptive EN)",
+   "municipality_ja": "上川郡清水町",
+   "lat": 43.011436,
+   "lon": 142.884537,
+   "coord_precision": "municipality-level only: GSI geocode of 北海道上川郡清水町 (town centre); actual site not verified",
+   "status": "operating (processed 令和7年産 beets, 2025/26 campaign; listed in Hokkaido govt 3社7工場 map, Nov 2026)",
+   "source_url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/0/6/7/4/_/%E3%80%90%E5%88%86%E5%89%B22%E3%80%91%E5%8C%97%E6%B5%B7%E9%81%93%E3%81%AE%E7%95%91%E4%BD%9C%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%83%85%E5%8B%A2R8.11.pdf",
+   "r7_sugar_t": 41600.01
+  },
+  {
+   "company_ja": "北海道糖業株式会社",
+   "company_en": "Hokkaido Sugar Co., Ltd.",
+   "name_ja": "北見製糖所",
+   "name_en": "Kitami Sugar Factory (descriptive EN)",
+   "municipality_ja": "北見市",
+   "lat": 43.802906,
+   "lon": 143.894684,
+   "coord_precision": "municipality-level only: GSI geocode of 北海道北見市 (= city hall); factory site not verified (company site unreachable)",
+   "status": "operating (processed 令和7年産 beets, 2025/26 campaign; listed in Hokkaido govt 3社7工場 map, Nov 2026)",
+   "source_url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/0/6/7/4/_/%E3%80%90%E5%88%86%E5%89%B22%E3%80%91%E5%8C%97%E6%B5%B7%E9%81%93%E3%81%AE%E7%95%91%E4%BD%9C%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%83%85%E5%8B%A2R8.11.pdf",
+   "r7_sugar_t": 40046.94
+  },
+  {
+   "company_ja": "北海道糖業株式会社",
+   "company_en": "Hokkaido Sugar Co., Ltd.",
+   "name_ja": "道南製糖所",
+   "name_en": "Donan Sugar Factory (descriptive EN)",
+   "municipality_ja": "伊達市",
+   "lat": 42.471943,
+   "lon": 140.864716,
+   "coord_precision": "municipality-level only: GSI geocode of 北海道伊達市 (= city hall); factory site not verified",
+   "status": "operating (processed 令和7年産 beets, 2025/26 campaign; listed in Hokkaido govt 3社7工場 map, Nov 2026)",
+   "source_url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/0/6/7/4/_/%E3%80%90%E5%88%86%E5%89%B22%E3%80%91%E5%8C%97%E6%B5%B7%E9%81%93%E3%81%AE%E7%95%91%E4%BD%9C%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%83%85%E5%8B%A2R8.11.pdf",
+   "r7_sugar_t": 29072.17
+  },
+  {
+   "company_ja": "北海道糖業株式会社",
+   "company_en": "Hokkaido Sugar Co., Ltd.",
+   "name_ja": "本別事業所（旧 本別製糖所）",
+   "name_en": "Hombetsu Office (former Hombetsu Sugar Factory)",
+   "municipality_ja": "中川郡本別町",
+   "lat": 43.124672,
+   "lon": 143.610565,
+   "coord_precision": "municipality-level only: GSI geocode of 北海道中川郡本別町",
+   "status": "NOT producing sugar since 令和5砂糖年度 (2023 crop): beets received here are processed at Hokkaido Sugar Kitami and (under contract) Nitten Memuro. Exclude from 'operating factory' count; optional greyed marker.",
+   "source_url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/0/6/7/4/_/%E3%80%90%E5%88%86%E5%89%B22%E3%80%91%E5%8C%97%E6%B5%B7%E9%81%93%E3%81%AE%E7%95%91%E4%BD%9C%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%83%85%E5%8B%A2R8.11.pdf",
+   "is_operating_sugar_factory": false
+  }
+ ],
+ "factory_count_note": "As of the Hokkaido govt 「北海道の畑作をめぐる情勢」(R8/2026年11月, part 2, PDF page 6 / printed p.34) map 'てん菜糖工場分布図(３社７工場)': 3 companies, 7 beet sugar factories. Down from 3社8工場 (MAFF 甘味資源部会 資料 220909-17, p.1, 2022). The closed one is 北海道糖業 本別製糖所: per the same Hokkaido doc (table てん菜糖生産量(産糖量ベース)の推移, note 3) from 令和5砂糖年度 beets received at 北糖本別事業所 are processed at 北糖北見製糖所 and ニッテン芽室製糖所; Nitten history page: 2023 芽室製糖所での北海道糖業（本別）からの受託製造を開始. Nitten 芽室製糖所 is NOT closed - it was the largest producer in the 2025 crop (171,826 t sugar). Note: 日本甜菜製糖 renamed to 株式会社ニッテン in 2026 (Nitten history page).",
+ "season": {
+  "harvest_months": "October-November (ALIC: GW前後に植付けされ、その年の10～11月に収穫; MAFF pamphlet calendar: 収穫・搬出 in Oct-Nov, '収穫は10月')",
+  "processing_months": "Slicing (截断) starts early-mid October and ends late December to mid March; sugar boiling (製糖) at the largest plant continued to early May. 2025 crop actuals: 截断 start 10/4-10/15; 截断 end 12/22 (士別) to 3/10 (中斜里); 製糖 end 12/23 (士別) to 5/4 (芽室).",
+  "per_factory_2025crop": {
+   "芽室": {
+    "slice": "10/4-2/16",
+    "sugar": "10/4-5/4"
+   },
+   "美幌": {
+    "slice": "10/4-1/14",
+    "sugar": "10/4-1/15"
+   },
+   "士別": {
+    "slice": "10/5-12/22",
+    "sugar": "10/5-12/23"
+   },
+   "中斜里": {
+    "slice": "10/11-3/10",
+    "sugar": "10/11-3/15"
+   },
+   "清水": {
+    "slice": "10/15-2/6",
+    "sugar": "10/15-2/6"
+   },
+   "北見": {
+    "slice": "10/10-1/16",
+    "sugar": "10/10-1/17"
+   },
+   "道南": {
+    "slice": "10/13-12/26",
+    "sugar": "10/13-1/5"
+   }
+  },
+  "source": [
+   {
+    "publisher": "北海道農政部",
+    "title": "令和７年（2025年）産てん菜糖の生産実績",
+    "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/5/3/7/6/5/_/R7%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%B3%96%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf",
+    "table": "截断/製糖 開始日・終了日 columns",
+    "page": 1,
+    "accessed": "2026-11-08"
+   },
+   {
+    "publisher": "農畜産業振興機構 ALIC",
+    "title": "砂糖の原料について～てん菜～ (最終更新 2014-11-21)",
+    "url": "https://www.alic.go.jp/koho/kikaku03_000770.html",
+    "table": "本文",
+    "page": "web page",
+    "accessed": "2026-11-08"
+   },
+   {
+    "publisher": "農林水産省",
+    "title": "甘味資源作物 パンフレット (panf2.pdf) 'てん菜の種まき～収穫まで'",
+    "url": "https://www.maff.go.jp/j/seisan/tokusan/kanmi_sigen/pdf/panf2.pdf",
+    "table": "8 てん菜の種まき～収穫まで (calendar)",
+    "page": 2,
+    "accessed": "2026-11-08"
+   }
+  ]
+ },
+ "notes": [
+  "Latest completed crop = 令和7年産 (2025). Hokkaido govt also published a forecast for 令和8年産 (2026): 46,401.35 ha, 3,311,000 t (生産見込数量 as of 8/20, published 2026-09-15; https://www.pref.hokkaido.lg.jp/fs/1/3/2/1/4/8/6/1/_/02%20%E7%94%9F%E7%94%A3%E8%A6%8B%E8%BE%BC%E6%95%B0%E9%87%8FR8.pdf, p.1). Not final; do not mix with actuals.",
+  "Region values are Hokkaido govt (14 振興局) survey figures; they sum to the 47,965.49 ha / 3,194,632.98 t total. Soya (宗谷) has no beet. Tokachi 44.4% and Okhotsk 40.6% of area.",
+  "Municipality-level (市町村別) area/harvest for 2025 is also available in the same Hokkaido PDF, pages 2-4 (table '2 市町村別'), if a choropleth by municipality is wanted.",
+  "ALIC jd1-2 columns: 年産 labels 26..30 = 平成, 元..7 = 令和. 産糖量 for 20年産 onward excludes beet sugar-equivalent of juice for bioethanol (注1).",
+  "The Hokkaido doc table 'てん菜糖生産量(産糖量ベース)の推移' labels years as 砂糖年度 but its R7 values (e.g. total 491千t) match the 令和7年産 factory actuals.",
+  "Per-factory 2025-crop sugar output (Hokkaido govt PDF p.1): 芽室 171,826.18 t (includes 本別-received beets processed under contract, 29,989.50 t); 美幌 49,300.00; 士別 33,051.70; 中斜里 126,010.01; 清水 41,600.01; 北見 40,046.94 (includes 6,430.52 from 本別); 道南 29,072.17. Total 490,907.01 t.",
+  "UNVERIFIED: street addresses of Hokuren and Hokkaido Sugar factories. hokuren.or.jp returns an Incapsula bot-protection page (not bypassed); hokkaido-sugar.co.jp did not resolve / proxy refused. Their coordinates here are municipality/locality centroids from GSI geocoder (msearch.gsi.go.jp) - precision noted per factory; refine if the user can supply official addresses.",
+  "English factory names for Hokuren and Hokkaido Sugar are descriptive translations, not taken from official English pages. Nitten EN names are from its official English locations page.",
+  "MAFF website direct page for 工芸農作物 (sakkyou_kogei) returned 404/403; MAFF data was obtained via the 作況調査 index page -> e-Stat Excel."
+ ]
+}

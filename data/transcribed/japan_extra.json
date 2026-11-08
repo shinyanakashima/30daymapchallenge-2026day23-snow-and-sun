@@ -1,0 +1,143 @@
+{
+ "supply_key": "2025",
+ "cane_lat_band": [
+  24,
+  31
+ ],
+ "anchors": {
+  "north": {
+   "name_ja": "芽室製糖所（十勝）",
+   "name_en": "Memuro sugar factory, Tokachi",
+   "lat": 42.922,
+   "lon": 143.078
+  },
+  "south": {
+   "name_ja": "宮古島",
+   "name_en": "Miyako-jima",
+   "lat": 24.7905,
+   "lon": 125.3034
+  }
+ },
+ "season": {
+  "beet": {
+   "harvest": [
+    10,
+    11
+   ],
+   "processing": [
+    12,
+    1,
+    2,
+    3
+   ]
+  },
+  "cane": {
+   "harvest": [
+    12,
+    1,
+    2,
+    3,
+    4
+   ],
+   "processing": [
+    5
+   ]
+  },
+  "beet_src_ja": "収穫は10〜11月（ALIC、農林水産省）。令和7年産の工場の截断（原料の処理）は10月4日〜3月10日（北海道農政部）",
+  "beet_src_en": "harvest in October–November (ALIC, MAFF); factories sliced the 2025 crop from 4 October to 10 March (Hokkaido Government)"
+ },
+ "factory_note_ja": "位置は市町村や地区の代表点で、工場の正確な位置ではありません。",
+ "factory_note_en": "Position is approximate (town or district point), not the exact site.",
+ "factory_en": {},
+ "company_en": {},
+ "sources": [
+  {
+   "text_ja": "農林水産省「令和8砂糖年度における砂糖及び異性化糖の需給見通し（第1回）」（令和8年9月）参考資料1 需給総括表（PDF p.6）、7 粗糖の輸入実績（PDF p.12）。PDFから書き起こし。",
+   "text_en": "MAFF, Outlook for supply and demand of sugar and isomerized sugar, sugar year 2026, 1st (September 2026): reference table 1 (PDF p.6) and table 7, raw sugar imports (PDF p.12). Transcribed from PDF.",
+   "url": "https://www.maff.go.jp/j/seisan/tokusan/kansho/attach/pdf/satou-42.pdf"
+  },
+  {
+   "text_ja": "北海道農政部「令和7年産 てん菜生産実績」表1（総合）振興局別（p.1）。PDFから書き起こし。",
+   "text_en": "Hokkaido Government, Sugar beet production results, 2025 crop, table 1 by subprefecture (p.1). Transcribed from PDF.",
+   "url": "https://www.pref.hokkaido.lg.jp/fs/1/2/7/8/8/0/0/7/_/R7%E5%B9%B4%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf"
+  },
+  {
+   "text_ja": "北海道農政部「令和7年（2025年）産てん菜糖の生産実績」（p.1）。PDFから書き起こし。",
+   "text_en": "Hokkaido Government, Beet sugar production results, 2025 crop (p.1). Transcribed from PDF.",
+   "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/5/3/7/6/5/_/R7%E7%94%A3%E3%81%A6%E3%82%93%E8%8F%9C%E7%B3%96%E7%94%9F%E7%94%A3%E5%AE%9F%E7%B8%BE.pdf"
+  },
+  {
+   "text_ja": "農畜産業振興機構（ALIC）統計資料 1-(2) 北海道のてん菜等の生産実績（p.1）。",
+   "text_en": "Agriculture & Livestock Industries Corporation (ALIC), statistics 1-(2): sugar beet production in Hokkaido (p.1).",
+   "url": "https://sugar.alic.go.jp/japan/data/jd1-2.pdf"
+  },
+  {
+   "text_ja": "農林水産省 作物統計「令和7年産 工芸農作物の収穫量」てんさい（e-Stat）。",
+   "text_en": "MAFF crop statistics, harvest of industrial crops, 2025 crop: sugar beet (via e-Stat).",
+   "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040440441&fileKind=0"
+  },
+  {
+   "text_ja": "北海道農政部「北海道の畑作をめぐる情勢」（令和8年11月）てん菜糖工場分布図（3社7工場）（分割2、PDF p.6）。",
+   "text_en": "Hokkaido Government, Upland farming in Hokkaido (November 2026): map of beet sugar factories, 3 companies and 7 factories (part 2, PDF p.6).",
+   "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/0/6/7/4/_/%E3%80%90%E5%88%86%E5%89%B22%E3%80%91%E5%8C%97%E6%B5%B7%E9%81%93%E3%81%AE%E7%95%91%E4%BD%9C%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%83%85%E5%8B%A2R8.11.pdf"
+  },
+  {
+   "text_ja": "株式会社ニッテン 事業所一覧（芽室・美幌・士別製糖所の所在地）。",
+   "text_en": "Nitten Co., Ltd., office list (Memuro, Bihoro and Shibetsu factories).",
+   "url": "https://www.nitten.co.jp/company/office/"
+  },
+  {
+   "text_ja": "沖縄県農林水産部「令和7/8年期 さとうきび及び甘しゃ糖生産実績」（令和8年8月）表Ⅰ-1、4、5、7（印刷頁 p.1–2、9–10、12–17、21–23）。PDFから書き起こし。",
+   "text_en": "Okinawa Prefecture, Sugarcane and cane sugar production results, 2025/26 season (August 2026): tables I-1, 4, 5 and 7 (printed pp.1–2, 9–10, 12–17, 21–23). Transcribed from PDF.",
+   "url": "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/041/379/01_seisanjisseki.pdf"
+  },
+  {
+   "text_ja": "沖縄県 分蜜糖工場・含蜜糖工場の一覧（工場の所在地）。",
+   "text_en": "Okinawa Prefecture, lists of centrifugal and non-centrifugal sugar factories (addresses).",
+   "url": "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/676/bunmitu.pdf"
+  },
+  {
+   "text_ja": "鹿児島県農政部「令和7年産 さとうきび及び甘しゃ糖生産実績（令和7/8年期）」（令和8年9月）表Ⅱ-1 島別生産実績（印刷頁 p.11）、Ⅱ-9 分みつ糖工場操業実績（p.19）。PDFから書き起こし。",
+   "text_en": "Kagoshima Prefecture, Sugarcane and cane sugar production results, 2025 crop (September 2026): table II-1 by island (printed p.11) and II-9 factory operations (p.19). Transcribed from PDF.",
+   "url": "https://www.pref.kagoshima.jp/ag06/sangyo-rodo/nogyo/nosanbutu/satokibi/documents/41531_20261007151914-1.pdf"
+  },
+  {
+   "text_ja": "FAO. FAOSTAT「Crops and livestock products」（最終更新2025年）、Sugar beet・Sugar cane の生産量、2024年。2026年11月8日取得。CC BY 4.0。",
+   "text_en": "FAO. FAOSTAT, Crops and livestock products (last updated 2025): production of sugar beet and sugar cane, 2024. Accessed 8 November 2026. CC BY 4.0.",
+   "url": "https://www.fao.org/faostat/en/#data/QCL"
+  },
+  {
+   "text_ja": "Natural Earth 1:50m Admin 0 Countries、1:10m Admin 1（v5.1.1、パブリックドメイン）。",
+   "text_en": "Natural Earth 1:50m Admin 0 Countries and 1:10m Admin 1 (v5.1.1, public domain).",
+   "url": "https://www.naturalearthdata.com/"
+  },
+  {
+   "text_ja": "国土数値情報 行政区域データ（N03、2025年1月1日時点、国土交通省）北海道・鹿児島県・沖縄県。",
+   "text_en": "National Land Numerical Information, Administrative Areas (N03, as of 1 January 2025, MLIT): Hokkaido, Kagoshima and Okinawa.",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2025.html"
+  },
+  {
+   "text_ja": "工場・島の位置の一部は国土地理院の住所検索で求めた。",
+   "text_en": "Some factory and island positions were geocoded with the GSI address search.",
+   "url": "https://msearch.gsi.go.jp/address-search/AddressSearch"
+  }
+ ],
+ "notes_ja": [
+  "世界の生産量はFAOSTATの2024年（暦年）の値。",
+  "北海道のてん菜の作付面積・収穫量・てん菜糖の産糖量は令和7年産（2025年秋収穫、工場の製造は2025年10月〜2026年5月）。産糖量は白糖と原料糖の合計で、白糖換算ではありません。",
+  "さとうきびは、沖縄県が令和7/8年期、鹿児島県が令和7年産（どちらも2025年に育ち2025年12月〜2026年5月に収穫・製糖）。宮古島と伊良部島の産糖量は工場別の値です。",
+  "スプーンの数値（需給・自給率）は砂糖年度（10月〜翌年9月）。令和7砂糖年度（2025年10月〜2026年9月）は見込み値で、実績の最新は令和6砂糖年度。分蜜糖は精製糖ベース、含蜜糖は製品ベース。",
+  "粗糖の輸入先は令和6砂糖年度の通関実績（財務省「日本貿易統計」、農林水産省の資料による）。",
+  "国・県の資料の数値はPDFから書き起こしたものです。表の名前とページは data/transcribed/ と data/supply.json に記録しています。",
+  "工場の位置の一部（ホクレン、北海道糖業、鹿児島県の工場）は市町村や地区の代表点で、正確な位置ではありません。北海道のてん菜糖工場は3社7工場（北海道糖業の本別製糖所は令和5砂糖年度から製造をしていないため含めない）。"
+ ],
+ "notes_en": [
+  "World production: FAOSTAT, calendar year 2024.",
+  "Hokkaido sugar beet area, harvest and beet sugar output are for the 2025 crop (harvested autumn 2025, processed October 2025 to May 2026). Sugar output is white sugar plus raw sugar as produced, not white-sugar equivalent.",
+  "Sugarcane: Okinawa 2025/26 season and Kagoshima 2025 crop (both grown in 2025, harvested and crushed December 2025 to May 2026). Sugar for Miyako-jima and Irabu-jima is counted by factory.",
+  "The spoon (supply and self-sufficiency) uses the sugar year, October to September. Sugar year 2025/26 is an estimate; the latest actual is sugar year 2024/25. Centrifugal sugar on a refined basis, non-centrifugal sugar on a product basis.",
+  "Raw sugar import sources: sugar year 2024/25 customs data (Ministry of Finance trade statistics, as tabulated by MAFF).",
+  "Figures from national and prefectural reports were transcribed from PDF files. Table names and pages are recorded in data/transcribed/ and data/supply.json.",
+  "Some factory positions (Hokuren, Hokkaido Sugar and the Kagoshima factories) are town or district points, not exact sites. Hokkaido has 7 beet sugar factories run by 3 companies; Hokkaido Sugar's Hombetsu plant has not made sugar since sugar year 2023 and is not shown."
+ ]
+}

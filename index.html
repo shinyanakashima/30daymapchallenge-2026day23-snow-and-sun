@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sugar from snow and sun</title>
+<meta name="description" content="Japan grows sugar only at its two ends: sugar beet in snowy Hokkaido and sugarcane on its subtropical southern islands. #30DayMapChallenge 2026 Day 23: Taste.">
+<meta property="og:title" content="Sugar from snow and sun">
+<meta property="og:description" content="Japan grows sugar only at its two ends: sugar beet in snowy Hokkaido and sugarcane on its southern islands.">
+<meta property="og:image" content="docs/screenshot.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="tag">#30DayMapChallenge 2026 · Day 23 · <span data-i18n="theme">Taste</span></span>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="en" aria-pressed="true">EN</button>
+    <button type="button" data-lang="ja" aria-pressed="false">日本語</button>
+  </div>
+</header>
+
+<main>
+  <div class="stage" aria-hidden="false">
+    <svg id="map" role="img" aria-labelledby="map-title"><title id="map-title">Map</title></svg>
+    <div id="legend" class="legend"></div>
+    <div id="info" class="info" hidden>
+      <button type="button" class="info-close" aria-label="Close">×</button>
+      <div class="info-body"></div>
+    </div>
+  </div>
+
+  <div class="steps">
+    <section class="step intro" data-scene="world">
+      <h1 data-i18n="title">Sugar from snow and sun</h1>
+      <p class="lede" data-i18n="lede"></p>
+    </section>
+
+    <section class="step" data-scene="world">
+      <p class="kicker" data-i18n="s1k"></p>
+      <h2 data-i18n="s1h"></h2>
+      <p data-i18n-html="s1p"></p>
+      <p class="fine" data-i18n-html="s1n"></p>
+    </section>
+
+    <section class="step" data-scene="worldboth">
+      <p class="kicker" data-i18n="s1k"></p>
+      <h2 data-i18n="s1bh"></h2>
+      <p data-i18n-html="s1bp"></p>
+      <ol class="both-list" id="both-list"></ol>
+    </section>
+
+    <section class="step" data-scene="japan">
+      <p class="kicker" data-i18n="s2k"></p>
+      <h2 data-i18n="s2h"></h2>
+      <p data-i18n-html="s2p"></p>
+      <p class="fine" data-i18n="s2tip"></p>
+    </section>
+
+    <section class="step" data-scene="japan-north">
+      <p class="kicker" data-i18n="s2k"></p>
+      <h2 data-i18n="s2nh"></h2>
+      <p data-i18n-html="s2np"></p>
+      <p class="fine" data-i18n-html="s2nn"></p>
+    </section>
+
+    <section class="step" data-scene="japan-south">
+      <p class="kicker" data-i18n="s2k"></p>
+      <h2 data-i18n="s2sh"></h2>
+      <p data-i18n-html="s2sp"></p>
+      <p class="fine" data-i18n-html="s2sn"></p>
+    </section>
+
+    <section class="step" data-scene="spoon">
+      <p class="kicker" data-i18n="s3k"></p>
+      <h2 data-i18n="s3h"></h2>
+      <p data-i18n-html="s3p"></p>
+      <p class="fine" data-i18n-html="s3n"></p>
+    </section>
+
+    <section class="step" data-scene="season">
+      <p class="kicker" data-i18n="s4k"></p>
+      <h2 data-i18n="s4h"></h2>
+      <p data-i18n-html="s4p"></p>
+      <p class="fine" data-i18n-html="s4n"></p>
+    </section>
+
+    <section class="step notes" data-scene="japan" id="notes">
+      <h2 data-i18n="notesh"></h2>
+      <div id="notes-body"></div>
+    </section>
+  </div>
+</main>
+
+<script src="js/vendor/d3.min.js"></script>
+<script src="js/vendor/topojson-client.min.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
