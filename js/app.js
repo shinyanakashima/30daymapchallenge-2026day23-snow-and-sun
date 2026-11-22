@@ -610,7 +610,7 @@
       var sc = el.getAttribute("data-scene");
       if (sc !== scene || !gWorld.style("opacity") || gWorld.style("opacity") === "0" && sc.indexOf("world") === 0) renderScene(sc, false);
     }
-    renderScene("spoon", true);
+    renderScene("world", true);
     activate(steps[0]);
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) { if (e.isIntersecting) activate(e.target); });
