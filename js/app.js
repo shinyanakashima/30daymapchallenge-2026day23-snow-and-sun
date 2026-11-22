@@ -153,6 +153,9 @@
     V.ausShare = nf(imp.countries[0].share_pct, 1);
     V.thaShare = nf(imp.countries[1].share_pct, 1);
     V.grains = grainCounts(cur);
+    V.gBeet = V.grains.beet; V.gCane = V.grains.cane;
+    var w = D.fao.world;
+    V.beetCaneShare = nf(Math.floor(1000 * (w.beet + w.cane) / (w.beet + w.cane + w.other_sugar_crops)) / 10, 1);
   }
   function pad3(s) { s = String(s || ""); return s === "-99" ? "" : ("000" + s).slice(-3); }
 
@@ -400,7 +403,7 @@
     for (k = 0; k < g.imp; k++) cats.push("imp");
     var col = { beet: "var(--beet)", cane: "var(--cane)", other: "#d9b48a", imp: "#4a505b" };
     root.append("g").selectAll("circle").data(pts).join("circle")
-      .attr("class", "grain")
+      .attr("class", function (d, i) { return "grain g-" + cats[i]; })
       .attr("cx", function (d) { return cx + d.x; }).attr("cy", function (d) { return cy + d.y; })
       .attr("r", step * 0.38)
       .attr("fill", function (d, i) { return col[cats[i]]; });
@@ -468,7 +471,8 @@
     gWorld.style("pointer-events", isWorld ? "all" : "none");
     gJapan.transition().duration(dur).style("opacity", isJapan ? 1 : 0);
     gJapan.style("pointer-events", isJapan ? "all" : "none");
-    gSpoon.transition().duration(dur).style("opacity", name === "spoon" ? 1 : 0);
+    gSpoon.transition().duration(dur).style("opacity", name.indexOf("spoon") === 0 ? 1 : 0);
+    gSpoon.selectAll(".grain.g-imp").transition().duration(dur).style("opacity", name === "spoon-end" ? 0.2 : 1);
     gSeason.transition().duration(dur).style("opacity", name === "season" ? 1 : 0);
     gWorld.selectAll("path.country").transition().duration(dur)
       .style("opacity", function (d) { return name === "worldboth" && d.properties.cat !== "both" && d.properties.cat !== "none" ? 0.25 : 1; });
@@ -606,7 +610,7 @@
       var sc = el.getAttribute("data-scene");
       if (sc !== scene || !gWorld.style("opacity") || gWorld.style("opacity") === "0" && sc.indexOf("world") === 0) renderScene(sc, false);
     }
-    renderScene("world", true);
+    renderScene("spoon", true);
     activate(steps[0]);
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) { if (e.isIntersecting) activate(e.target); });

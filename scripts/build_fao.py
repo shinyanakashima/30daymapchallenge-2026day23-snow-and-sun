@@ -9,8 +9,12 @@ path, year = sys.argv[1], sys.argv[2]
 ITEMS = {"157": "beet", "156": "cane"}
 EXCLUDE_AREA = {"351"}  # "China" aggregate; mainland (41) and Taiwan (214) are kept separately
 rows = {}
+world = {}
+WORLD_ITEMS = {"157": "beet", "156": "cane", "161": "other_sugar_crops"}
 with open(path, encoding="utf-8", newline="") as f:
     for r in csv.DictReader(f):
+        if r["Area Code"] == "5000" and r["Element"] == "Production" and r["Year"] == year and r["Item Code"] in WORLD_ITEMS:
+            world[WORLD_ITEMS[r["Item Code"]]] = round(float(r["Value"]))
         if r["Item Code"] not in ITEMS or r["Element"] != "Production" or r["Year"] != year:
             continue
         if int(r["Area Code"]) >= 5000 or r["Area Code"] in EXCLUDE_AREA:
@@ -27,6 +31,7 @@ out = {
     "license": "CC BY 4.0",
     "year": int(year),
     "unit": "t",
+    "world": world,
     "countries": sorted(rows.values(), key=lambda e: e["m49"]),
 }
 json.dump(out, sys.stdout, ensure_ascii=False, separators=(",", ":"))
