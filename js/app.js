@@ -380,6 +380,8 @@
     var s = Math.min(W / 720, H / 560);
     var cx = W / 2 - (mobile() ? 60 : 110) * s, cy = H * (mobile() ? 0.46 : 0.48) + (mobile() ? 28 : 0);
     var rx = 170 * s, ry = 120 * s;
+    // keep the heading below the fixed top bar
+    cy = Math.max(cy, ry + 12 * s + 24 + 30 + (mobile() ? 50 : 60));
     var root = gSpoon.append("g");
     // handle
     root.append("path").attr("class", "spoon-outline")
