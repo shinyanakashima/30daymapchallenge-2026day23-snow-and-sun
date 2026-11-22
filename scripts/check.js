@@ -19,7 +19,7 @@ const { chromium } = require('playwright');
       const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
       if (overflow) problems.push(`[overflow ${vp.width} ${lang}]`);
       if (shot && vp.width === 1200 && lang === 'en') {
-        await page.evaluate(() => document.querySelector('.step[data-scene="japan"]').scrollIntoView({ block: 'center' }));
+        await page.evaluate(() => document.querySelector('.step:not(.intro)[data-scene="japan"]').scrollIntoView({ block: 'center' }));
         await page.waitForTimeout(1500);
         await page.screenshot({ path: shot });
       }

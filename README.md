@@ -6,19 +6,19 @@
 
 ![Japan scene](docs/screenshot.png)
 
-The world makes almost all of its sugar from two plants, sugar beet and sugarcane. Japan grows both, but only at its two ends: sugar beet in Hokkaido (around 43°N) and sugarcane on the islands of Kagoshima and Okinawa (24–31°N). Once refined, both are the same substance, sucrose. The page moves from the world map to Japan, and then to a spoonful of sugar on the table.
+The world makes almost all of its sugar from two plants, sugar beet and sugarcane. Japan grows both, but only at its two ends: sugar beet in Hokkaido (around 43°N) and sugarcane on the islands of Kagoshima and Okinawa (24–31°N). Once refined, both are the same substance, sucrose. The page starts with the two growing areas in Japan, moves to a spoonful of sugar on the table, and ends with the world.
 
 The page is a scrolling story in five parts:
 
-1. **Two plants**: sugar beet and sugarcane make up over 99.9% of the world's sugar crop harvest by weight. The map shows countries that grow beet, cane or both (FAOSTAT 2024). All countries that grow only beet lie at 33° latitude or higher, and all that grow only cane lie below 34°. Only 14 of 137 producing countries grow both, and only 5 grow more than a million tonnes of each. Japan is one of the five.
-2. **Japan**: only the sugar regions are lit. Hokkaido subprefectures are shaded by sugar beet area, and the southern islands by cane harvest. All operating sugar factories are marked. Includes the latitudes and the distance across the gap between the two areas (about 1,470 km from Tanegashima to the southern tip of Hokkaido).
-3. **Seasons**: beet harvest (October–November) and cane harvest (from December) on a month strip.
-4. **Spoon**: the sugar Japan uses in a year as 100 grains: home-grown beet sugar, home-grown cane sugar, and imports.
-5. **On the table**: the 27 beet grains and 8 cane grains. Beet sugar is mostly refined in Hokkaido; island raw cane sugar is refined on the main islands together with imported raw sugar.
+1. **Japan**: only the sugar regions are lit. Hokkaido subprefectures are shaded by sugar beet area, and the southern islands by cane harvest. All operating sugar factories are marked. Includes the latitudes and the distance across the gap between the two areas (about 1,460 km from Tanegashima to the southern tip of Hokkaido).
+2. **Seasons**: beet harvest (October–November) and cane harvest (from December) on a month strip.
+3. **Spoon**: the sugar Japan uses in a year as 100 grains: home-grown beet sugar, home-grown cane sugar, and imports.
+4. **On the table**: the 27 beet grains and 8 cane grains. Beet sugar is mostly refined in Hokkaido; island raw cane sugar is refined on the main islands together with imported raw sugar.
+5. **The world**: sugar beet and sugarcane make up over 99.9% of the world's sugar crop harvest by weight. The map shows countries that grow beet, cane or both (FAOSTAT 2024). All countries that grow only beet lie at 33° latitude or higher, and all that grow only cane lie below 34°. Only 14 of 137 producing countries grow both, and only 5 grow more than a million tonnes of each. Japan is one of the five.
 
 Tap a country, subprefecture, island or factory to see its figures. English is the default; use the 日本語 button or `?lang=ja` to switch to Japanese. On devices set to reduce motion, the scroll animations are turned off.
 
-スプーン1杯の白い砂糖は、植物から取り出したショ糖です。日本で使う砂糖のおよそ3分の1は国内で作られ、その原料は北の北海道（北緯43度前後）のてん菜と、南の鹿児島県・沖縄県の島々（北緯24〜31度）のさとうきびです。精製すればどちらも同じショ糖になります。この作品は、世界地図から日本、そして食卓のスプーン1杯の砂糖へと、2つの植物・日本・季節・スプーン・食卓の5つの場面でたどります。英語表記が基本で、「日本語」ボタン（または `?lang=ja`）で切り替えられます。
+スプーン1杯の白い砂糖は、植物から取り出したショ糖です。日本で使う砂糖のおよそ3分の1は国内で作られ、その原料は北の北海道（北緯43度前後）のてん菜と、南の鹿児島県・沖縄県の島々（北緯24〜31度）のさとうきびです。精製すればどちらも同じショ糖になります。この作品は、日本の2つの産地から食卓のスプーン1杯の砂糖へ、最後に世界へと、日本・季節・スプーン・食卓・世界の5つの場面でたどります。英語表記が基本で、「日本語」ボタン（または `?lang=ja`）で切り替えられます。
 
 ## Key figures
 

@@ -363,7 +363,7 @@
       sel.selectAll("tspan").attr("x", p[0] + dx);
       sel.attr("y", p[1] + (d.kind === "n" ? 26 : 4));
     });
-    var ho = pj(137.5, 36.4); setT(lab.select(".lab-honshu"), [ho[0], ho[1]], T("labHonshu"), "middle");
+    var ho = pj(141.0, 35.0); setT(lab.select(".lab-honshu"), [ho[0], ho[1]], T("labHonshu"), "middle");
   }
   function fmtLat(v) { return (lang === "ja" ? "北緯" + nf(v, 0) + "度" : nf(v, 0) + "°N"); }
 
@@ -610,7 +610,7 @@
       var sc = el.getAttribute("data-scene");
       if (sc !== scene || !gWorld.style("opacity") || gWorld.style("opacity") === "0" && sc.indexOf("world") === 0) renderScene(sc, false);
     }
-    renderScene("world", true);
+    renderScene("japan", true);
     activate(steps[0]);
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) { if (e.isIntersecting) activate(e.target); });
