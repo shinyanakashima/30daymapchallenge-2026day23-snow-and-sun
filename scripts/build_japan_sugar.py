@@ -150,6 +150,7 @@ out = {
     "cane": cane,
     "factories": factories,
     "anchors": extra["anchors"],
+    "beet_lat": extra["beet_lat"],
     "season": extra["season"],
     "supply_key": extra["supply_key"],
     "sources": extra["sources"],

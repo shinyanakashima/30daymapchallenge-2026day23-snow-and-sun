@@ -6,16 +6,16 @@
  ],
  "anchors": {
   "north": {
-   "name_ja": "芽室製糖所（十勝）",
-   "name_en": "Memuro sugar factory, Tokachi",
-   "lat": 42.922,
-   "lon": 143.078
+   "name_ja": "北海道の南端（白神岬）",
+   "name_en": "the southern tip of Hokkaido (Cape Shirakami)",
+   "lat": 41.398,
+   "lon": 140.197
   },
   "south": {
-   "name_ja": "宮古島",
-   "name_en": "Miyako-jima",
-   "lat": 24.7905,
-   "lon": 125.3034
+   "name_ja": "種子島",
+   "name_en": "Tanegashima",
+   "lat": 30.5331,
+   "lon": 130.9586
   }
  },
  "season": {
@@ -124,20 +124,27 @@
  ],
  "notes_ja": [
   "世界の生産量はFAOSTATの2024年（暦年）の値。",
+  "世界の場面の緯度は、Natural Earthの各国のラベル位置（LABEL_Y）の緯度。国の中の産地の位置は表していません。",
   "北海道のてん菜の作付面積・収穫量・てん菜糖の産糖量は令和7年産（2025年秋収穫、工場の製造は2025年10月〜2026年5月）。産糖量は白糖と原料糖の合計で、白糖換算ではありません。",
   "さとうきびは、沖縄県が令和7/8年期、鹿児島県が令和7年産（どちらも2025年に育ち2025年12月〜2026年5月に収穫・製糖）。宮古島と伊良部島の産糖量は工場別の値です。",
   "スプーンの数値（需給・自給率）は砂糖年度（10月〜翌年9月）。令和7砂糖年度（2025年10月〜2026年9月）は見込み値で、実績の最新は令和6砂糖年度。分蜜糖は精製糖ベース、含蜜糖は製品ベース。",
   "粗糖の輸入先は令和6砂糖年度の通関実績（財務省「日本貿易統計」、農林水産省の資料による）。",
   "国・県の資料の数値はPDFから書き起こしたものです。表の名前とページは data/transcribed/ と data/supply.json に記録しています。",
-  "工場の位置の一部（ホクレン、北海道糖業、鹿児島県の工場）は市町村や地区の代表点で、正確な位置ではありません。北海道のてん菜糖工場は3社7工場（北海道糖業の本別製糖所は令和5砂糖年度から製造をしていないため含めない）。"
+  "工場の位置の一部（ホクレン、北海道糖業、鹿児島県の工場）は市町村や地区の代表点で、正確な位置ではありません。北海道のてん菜糖工場は3社7工場（北海道糖業の本別製糖所は令和5砂糖年度から製造をしていないため含めない）。",
+  "この作品の対象は砂糖（しょ糖）とその原料作物です。異性化糖（でん粉から作る液糖）は含みません。国の統計に載らない小規模な栽培（四国の和三盆用のさとうきびなど）も含みません。",
+  "南北の間の距離は、北海道本島の南端（国土数値情報 N03 から求めた白神岬付近）と種子島の代表点の間の大圏距離。"
  ],
  "notes_en": [
   "World production: FAOSTAT, calendar year 2024.",
+  "Latitudes in the world scene are each country's Natural Earth label point (LABEL_Y), not where the crops grow inside the country.",
   "Hokkaido sugar beet area, harvest and beet sugar output are for the 2025 crop (harvested autumn 2025, processed October 2025 to May 2026). Sugar output is white sugar plus raw sugar as produced, not white-sugar equivalent.",
   "Sugarcane: Okinawa 2025/26 season and Kagoshima 2025 crop (both grown in 2025, harvested and crushed December 2025 to May 2026). Sugar for Miyako-jima and Irabu-jima is counted by factory.",
   "The spoon (supply and self-sufficiency) uses the sugar year, October to September. Sugar year 2025/26 is an estimate; the latest actual is sugar year 2024/25. Centrifugal sugar on a refined basis, non-centrifugal sugar on a product basis.",
   "Raw sugar import sources: sugar year 2024/25 customs data (Ministry of Finance trade statistics, as tabulated by MAFF).",
   "Figures from national and prefectural reports were transcribed from PDF files. Table names and pages are recorded in data/transcribed/ and data/supply.json.",
-  "Some factory positions (Hokuren, Hokkaido Sugar and the Kagoshima factories) are town or district points, not exact sites. Hokkaido has 7 beet sugar factories run by 3 companies; Hokkaido Sugar's Hombetsu plant has not made sugar since sugar year 2023 and is not shown."
- ]
+  "Some factory positions (Hokuren, Hokkaido Sugar and the Kagoshima factories) are town or district points, not exact sites. Hokkaido has 7 beet sugar factories run by 3 companies; Hokkaido Sugar's Hombetsu plant has not made sugar since sugar year 2023 and is not shown.",
+  "The piece covers sugar (sucrose) and its crops only. Isomerized sugar (syrup made from starch) is not included, nor is small-scale growing outside the national statistics, such as sugarcane for wasanbon sugar in Shikoku.",
+  "The gap distance is the great-circle distance from the southern tip of mainland Hokkaido (Cape Shirakami area, taken from N03) to the Tanegashima reference point."
+ ],
+ "beet_lat": 43
 }

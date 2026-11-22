@@ -79,6 +79,15 @@
     V.nCane = producers.filter(function (c) { return c.cane; }).length;
     V.nBoth = both.length;
     V.nBig = big.length;
+    // latitude of each country's Natural Earth label point
+    var latOf = {};
+    countries.forEach(function (f) { if (f.properties.fao) latOf[f.properties.fao.m49] = Math.abs(+f.properties.LABEL_Y); });
+    var beetOnly = producers.filter(function (c) { return c.beet && !c.cane && latOf[c.m49] != null; });
+    var caneOnly = producers.filter(function (c) { return c.cane && !c.beet && latOf[c.m49] != null; });
+    V.nBeetOnly = beetOnly.length; V.nCaneOnly = caneOnly.length;
+    V.beetOnlyMinLat = nf(Math.floor(d3.min(beetOnly, function (c) { return latOf[c.m49]; })));
+    V.caneOnlyMaxLat = nf(Math.ceil(d3.max(caneOnly, function (c) { return latOf[c.m49]; })));
+    V.caneOnlyTropics = caneOnly.filter(function (c) { return latOf[c.m49] <= 23.44; }).length;
     V.worldBeet = nf(d3.sum(producers, function (c) { return c.beet || 0; }) / 1e6);
     V.worldCane = nf(d3.sum(producers, function (c) { return c.cane || 0; }) / 1e6);
     V.jpBeetFao = mt(jp.beet); V.jpCaneFao = mt(jp.cane);
@@ -121,7 +130,7 @@
     var north = jd.anchors.north, south = jd.anchors.south;
     V.distKm = nf(Math.round(d3.geoDistance([north.lon, north.lat], [south.lon, south.lat]) * 6371 / 10) * 10);
     V.northName = L(north, "name"); V.southName = L(south, "name");
-    V.northLat = nf(north.lat, 0); V.southLat = nf(south.lat, 1);
+    V.northLat = nf(jd.beet_lat, 0); V.gapNorthLat = nf(north.lat, 1); V.gapSouthLat = nf(south.lat, 1);
     var cLats = jd.cane.islands.map(function (i) { return i.lat; });
     V.caneLatMin = nf(Math.floor(d3.min(cLats))); V.caneLatMax = nf(Math.ceil(d3.max(cLats)));
 
@@ -216,7 +225,7 @@
     pathJ = d3.geoPath(projJ);
     var z = gJapanZoom;
     // latitude guide lines
-    var lines = [{ lat: D.jp.anchors.north.lat, cls: "n" }, { lat: D.jp.cane.lat_band[1], cls: "s" }, { lat: D.jp.cane.lat_band[0], cls: "s" }];
+    var lines = [{ lat: D.jp.beet_lat, cls: "n" }, { lat: D.jp.cane.lat_band[1], cls: "s" }, { lat: D.jp.cane.lat_band[0], cls: "s" }];
     lines.forEach(function (l) {
       var ln = { type: "LineString", coordinates: d3.range(118, 152, 1).map(function (x) { return [x, l.lat]; }) };
       z.append("path").datum(ln).attr("class", "lat-line " + l.cls).attr("d", pathJ).attr("vector-effect", "non-scaling-stroke");
@@ -331,8 +340,8 @@
       sel.text(text).attr("text-anchor", anchor || "start").transition().duration(dur).attr("x", xy[0]).attr("y", xy[1]);
     }
     var xRight = W - (mobile() ? 6 : 16);
-    var n = pj(150, a.lat), s1 = pj(150, D.jp.cane.lat_band[1]), s0 = pj(150, D.jp.cane.lat_band[0]);
-    setT(lab.select(".n-lat"), [xRight, Math.min(n[1], H) - 4], fmtLat(a.lat), "end");
+    var n = pj(150, D.jp.beet_lat), s1 = pj(150, D.jp.cane.lat_band[1]), s0 = pj(150, D.jp.cane.lat_band[0]);
+    setT(lab.select(".n-lat"), [xRight, Math.min(n[1], H) - 4], fmtLat(D.jp.beet_lat), "end");
     setT(lab.select(".s-lat"), [xRight, s1[1] - 4], fmtLat(D.jp.cane.lat_band[1]), "end");
     var s0l = pj(118, D.jp.cane.lat_band[0]);
     setT(lab.select(".s-lat0"), [Math.max(8, s0l[0] + 4), Math.min(s0l[1], H) - 4], fmtLat(D.jp.cane.lat_band[0]), "start");

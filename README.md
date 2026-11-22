@@ -11,7 +11,7 @@ The world makes its sugar from two plants: sugar beet, grown where winters are c
 The page is a scrolling story in four parts:
 
 1. **World**: countries that grow beet, cane or both (FAOSTAT 2024). Only 14 of 137 producing countries grow both, and only 5 grow more than a million tonnes of each. Japan is one of the five.
-2. **Japan**: only the sugar regions are lit. Hokkaido subprefectures are shaded by sugar beet area, and the southern islands by cane harvest. All operating sugar factories are marked. Includes the latitudes and the straight-line distance between the two ends.
+2. **Japan**: only the sugar regions are lit. Hokkaido subprefectures are shaded by sugar beet area, and the southern islands by cane harvest. All operating sugar factories are marked. Includes the latitudes and the distance across the gap between them (about 1,470 km from Tanegashima to the southern tip of Hokkaido).
 3. **Spoon**: the sugar Japan uses in a year as 100 grains: home-grown beet sugar, home-grown cane sugar, and imports.
 4. **Seasons**: beet harvest (October–November) and cane harvest (December–spring) on a month strip.
 
@@ -70,6 +70,8 @@ All files were retrieved on 8 November 2026.
 
 ## Notes
 
+- **Scope.** The piece covers sugar (sucrose) and the crops it is made from. Isomerized sugar (syrup made from starch) is not included, nor is small-scale growing outside the national statistics, such as sugarcane for wasanbon sugar in Shikoku.
+- **World latitudes.** Country latitudes in the world scene are Natural Earth label points (`LABEL_Y`), not where the crops grow inside each country.
 - **Different year types.** World figures are calendar year 2024. Hokkaido beet is the 2025 crop (年産: harvested autumn 2025, processed October 2025 – May 2026). Okinawa cane is the 2025/26 season (年期), and Kagoshima cane the 2025 crop. Both were grown in 2025 and harvested and crushed December 2025 – May 2026. Supply, demand and self-sufficiency use the sugar year (砂糖年度, October–September).
 - **Estimate vs actual.** The spoon uses sugar year 2025/26, which MAFF lists as an estimate (見込み). The latest actual year is 2024/25 (self-sufficiency 38%).
 - **Sugar basis.** In the supply table, centrifugal sugar is on a refined-sugar basis and non-centrifugal (brown) sugar on a product basis. Hokkaido's 490,907 t is the actual output of the 2025 crop, white sugar plus raw sugar; it is not a white-sugar equivalent. Domestic production includes non-centrifugal sugar. Self-sufficiency is the table's "②／①": domestic production divided by total demand.

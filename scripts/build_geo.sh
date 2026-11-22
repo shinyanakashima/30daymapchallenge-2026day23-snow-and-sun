@@ -9,7 +9,7 @@
 set -e
 SRC="$1"; OUT="$(dirname "$0")/../data"; TMP="$(mktemp -d)"
 
-mapshaper "$SRC/ne50/ne_50m_admin_0_countries.shp" -filter-fields ADM0_A3,ISO_N3,ISO_N3_EH,NAME_EN,NAME_JA \
+mapshaper "$SRC/ne50/ne_50m_admin_0_countries.shp" -filter-fields ADM0_A3,ISO_N3,ISO_N3_EH,NAME_EN,NAME_JA,LABEL_Y \
   -filter 'ADM0_A3!="ATA"' -simplify 20% keep-shapes -rename-layers countries \
   -o format=topojson quantization=1e5 "$OUT/world.topo.json"
 
