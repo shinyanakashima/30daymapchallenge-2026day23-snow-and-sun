@@ -45,7 +45,13 @@
     build();
     applyLang();
     setupScroll();
-    window.addEventListener("resize", debounce(function () { build(); renderScene(scene, true); }, 200));
+    var lastW = window.innerWidth, lastH = window.innerHeight;
+    window.addEventListener("resize", debounce(function () {
+      // mobile browsers resize the viewport when the address bar shows or hides; ignore small height-only changes
+      if (window.innerWidth === lastW && Math.abs(window.innerHeight - lastH) < 160) return;
+      lastW = window.innerWidth; lastH = window.innerHeight;
+      build(); svgText(); renderScene(scene, true);
+    }, 200));
   }).catch(function (err) {
     console.error(err);
   });
@@ -372,7 +378,7 @@
     gSpoon = svg.append("g").attr("class", "layer spoon").style("opacity", 0);
     var g = V.grains;
     var s = Math.min(W / 720, H / 560);
-    var cx = W / 2 - (mobile() ? 60 : 110) * s, cy = H * (mobile() ? 0.46 : 0.48);
+    var cx = W / 2 - (mobile() ? 60 : 110) * s, cy = H * (mobile() ? 0.46 : 0.48) + (mobile() ? 28 : 0);
     var rx = 170 * s, ry = 120 * s;
     var root = gSpoon.append("g");
     // handle
@@ -558,16 +564,7 @@
     document.querySelectorAll("[data-i18n]").forEach(function (el) { el.textContent = T(el.getAttribute("data-i18n")); });
     document.querySelectorAll("[data-i18n-html]").forEach(function (el) { el.innerHTML = T(el.getAttribute("data-i18n-html")); });
     document.querySelectorAll(".lang button").forEach(function (b) { b.setAttribute("aria-pressed", b.getAttribute("data-lang") === lang ? "true" : "false"); });
-    svg.select("title").text(T("mapTitle"));
-    svg.selectAll("[data-k]").each(function () { this.textContent = T(this.getAttribute("data-k")); });
-    var monthsEn = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-    svg.selectAll("[data-month]").each(function () { var m = +this.getAttribute("data-month"); this.textContent = lang === "ja" ? m + "月" : monthsEn[m - 1]; });
-    svg.select(".sp-self").text(T("spSelf"));
-    svg.select(".sp-self-sub").text(T("spSelfSub"));
-    svg.select(".se-beet").text(T("seBeet"));
-    svg.select(".se-cane").text(T("seCane"));
-    svg.select(".se-k1").text(T("seK1"));
-    svg.select(".se-k2").text(T("seK2"));
+    svgText();
     var bl = document.getElementById("both-list");
     bl.innerHTML = D.both.map(function (c) {
       var f = D.countries.filter(function (x) { return x.properties.fao === c; })[0];
@@ -579,6 +576,20 @@
     renderLegend(scene);
     hideInfo();
   }
+  // text inside the SVG; called after every (re)build as well as on language change
+  function svgText() {
+    svg.select("title").text(T("mapTitle"));
+    svg.selectAll("[data-k]").each(function () { this.textContent = T(this.getAttribute("data-k")); });
+    var monthsEn = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    svg.selectAll("[data-month]").each(function () { var m = +this.getAttribute("data-month"); this.textContent = lang === "ja" ? m + "月" : monthsEn[m - 1]; });
+    svg.select(".sp-self").text(T("spSelf"));
+    svg.select(".sp-self-sub").text(T("spSelfSub"));
+    svg.select(".se-beet").text(T("seBeet"));
+    svg.select(".se-cane").text(T("seCane"));
+    svg.select(".se-k1").text(T("seK1"));
+    svg.select(".se-k2").text(T("seK2"));
+  }
+
   document.querySelectorAll(".lang button").forEach(function (b) {
     b.addEventListener("click", function () {
       lang = b.getAttribute("data-lang");

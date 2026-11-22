@@ -18,6 +18,13 @@ const { chromium } = require('playwright');
       if (leftover) problems.push(`[placeholder ${lang}] ${leftover.join(' ')}`);
       const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
       if (overflow) problems.push(`[overflow ${vp.width} ${lang}]`);
+      // SVG labels must survive a viewport change (rotation, window resize)
+      await page.setViewportSize({ width: vp.height > vp.width ? vp.height : vp.width - 200, height: vp.height > vp.width ? vp.width : vp.height - 100 });
+      await page.waitForTimeout(600);
+      const empty = await page.$$eval('.spoon-text text, .season-row', t => t.filter(x => !x.textContent.trim()).length);
+      if (empty) problems.push(`[empty svg labels after resize ${vp.width} ${lang}] ${empty}`);
+      await page.setViewportSize(vp);
+      await page.waitForTimeout(600);
       if (shot && vp.width === 1200 && lang === 'en') {
         await page.evaluate(() => document.querySelector('.step:not(.intro)[data-scene="japan"]').scrollIntoView({ block: 'center' }));
         await page.waitForTimeout(1500);
