@@ -1,4 +1,4 @@
-# Sugar from snow and sun / 雪と太陽の砂糖
+# Sugar from cold places and hot places / 寒い場所と暑い場所で作られる砂糖
 
 #30DayMapChallenge 2026 · Day 23 “Senses: Taste” (posted 23 November 2026)
 
