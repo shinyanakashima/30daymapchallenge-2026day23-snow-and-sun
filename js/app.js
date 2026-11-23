@@ -561,6 +561,7 @@
 
   // ---------- language ----------
   function applyLang() {
+    prepare(); // names, years and number formats in the text depend on the language
     document.documentElement.lang = lang;
     document.title = T("title");
     document.querySelectorAll("[data-i18n]").forEach(function (el) { el.textContent = T(el.getAttribute("data-i18n")); });

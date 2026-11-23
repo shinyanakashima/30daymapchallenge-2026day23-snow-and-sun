@@ -33,6 +33,24 @@ const { chromium } = require('playwright');
       await page.close();
     }
   }
+  // switching language with the button must give the same text as opening the page in that language
+  for (const [from, to] of [['en', 'ja'], ['ja', 'en']]) {
+    const direct = await browser.newPage();
+    await direct.goto(base + '?lang=' + to, { waitUntil: 'networkidle' });
+    const want = await direct.$eval('.steps', e => e.innerText);
+    await direct.close();
+    const page = await browser.newPage();
+    await page.goto(base + '?lang=' + from, { waitUntil: 'networkidle' });
+    await page.click(`.lang button[data-lang="${to}"]`);
+    await page.waitForTimeout(300);
+    const got = await page.$eval('.steps', e => e.innerText);
+    if (got !== want) {
+      const a = got.split('\n'), b = want.split('\n');
+      const i = a.findIndex((l, k) => l !== b[k]);
+      problems.push(`[language switch ${from}->${to}] differs: "${(a[i] || '').slice(0, 120)}"`);
+    }
+    await page.close();
+  }
   await browser.close();
   console.log(problems.length ? problems.join('\n') : 'OK: no console errors, no 4xx/5xx, no leftover placeholders');
   process.exit(problems.length ? 1 : 0);
